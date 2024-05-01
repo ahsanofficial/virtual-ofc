@@ -2,8 +2,6 @@ import NextNProgress from "nextjs-progressbar";
 import Faq from "../components/Faq";
 import DetailsWhyOpt from "../components/why-opt-launchwise/DetailsWhyOpt";
 import UseVirtualAddress from "../components/virtual-office-address-for/UseVirtualAddress";
-
-import Head from "next/head";
 import Header from "../components/HomePage/Header";
 import Hero from "../components/HomePage/Hero";
 import { Footer } from "../components/Footer/Footer";
