@@ -2,7 +2,12 @@
   * {
     font-family: Assistant;
   }
+  .outer-container{
+    background-color: #F5F5F5;
+    width: 100%;
+  }
   .list-virtual-addres {
+    
     display: flex;
     gap: 56px;
     align-items: center;

@@ -2,21 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import "./home-page/faq";
-@import "./home-page/why-opt-launchwise";
-@import "./home-page/virtual-office-address-for";
+
 
 // screens
 @import "./screens.scss";
 
-// components'
-// @import "./components/header";
+
+
+// home pages
 
 @import "./HomePage/Header";
 @import "./HomePage/Hero";
-
-
-// pages
+@import "./home-page/faq";
+@import "./home-page/why-opt-launchwise";
+@import "./home-page/virtual-office-address-for";
 @import "./components/footer";
-@import "./components/HomePage/discovertheultimate"
+@import "./components/HomePage/discovertheultimate";
+@import "./home-page/companies";
 
