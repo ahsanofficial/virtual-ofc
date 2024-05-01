@@ -1,6 +1,13 @@
 // bootstrap
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// screens
+@import "./screens.scss";
+
 // components'
 // @import "./components/header";
+
+// pages
 @import "./components/footer";
+
+@import "./components/HomePage/discovertheultimate"
