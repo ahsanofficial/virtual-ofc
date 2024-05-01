@@ -1,0 +1,207 @@
+.footer-comp{
+
+    .footer-top{
+      background: #191C20;
+      .container{
+        width: 80%;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 3rem 0;
+  
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+        
+        .links{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          gap: 20px;
+  
+          .social-links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            a{
+              color: white;
+              font-size: 20px;
+              transition: all 0.4s;
+            }
+          }
+        }
+  
+        .footer-links-container{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2.625rem 3.5rem;
+  
+          .footer-links{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+  
+            h3{
+              color: white;
+              font-size: 16px;
+              line-height: 20px;
+              font-weight: 700;
+              font-family: 'Poppins', sans-serif;
+              text-wrap: nowrap;
+            }
+  
+            ul{
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              padding: 0;
+  
+              li{
+                list-style: none;
+                a{
+                  color: #C2C2C2;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 20px;
+                  transition: all 0.4s;
+                  text-wrap: nowrap;
+                  text-decoration: none;
+                }              
+              }
+            }
+          }
+        }
+  
+        .newsletter{
+          display: flex;
+          flex-direction: column;
+          gap: 2.25rem;
+  
+          .footer-cta{
+            h3{
+              font-family: "Poppins", sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 24px;
+              text-align: left;
+              color: white;
+            }
+            div{
+              display: flex;
+              gap: 0.75rem;
+              input{
+                width: 100%;
+                padding: 0.5rem 1rem;
+                border: none;
+                background: #2B2F33;
+                color: #B0B0B0;
+                border-radius: 50px;
+                font-size: 16px;
+                line-height: 20px;
+  
+                &:focus{
+                  outline: none;
+                }
+              }
+              button{
+                padding: 0.5rem 1rem;
+                background-color: #2962FF;
+                border: none;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 50px;
+                transition: all 0.4s;
+              }
+            }
+          }
+  
+          .contacts{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            h3{
+              font-family: "Poppins", sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 24px;
+              text-align: left;
+              color: #c2c2c2;
+  
+            }
+            .adjacent-contact-items{
+              display: flex;
+              flex-wrap: wrap;
+              gap: 1rem 3rem;
+            }
+  
+            .contact-item{
+              display: flex;
+              gap: 0.5rem;
+              align-items: flex-start;
+              color: #c2c2c2;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 20px;
+              transition: all 0.4s;
+            }
+  
+          }
+        }
+      }
+  
+    }
+  
+    .footer-bottom{
+      background: #2B2F33;
+      
+      .container{
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 3rem 0;
+  
+        .virtual-offices{
+          .virtual-office-item{
+            h4{
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 20px;
+              text-align: left;
+              color: white;
+            }
+            p{
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 20px;
+              text-align: left;
+              color : #ACACAC;
+            }
+          }
+        }
+  
+        .horizontal-line{
+          background: #ACACAC;
+          height: 1px;
+          width: 100%;
+        }
+  
+        .copyright{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-top: 1rem;
+          p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            color : #ACACAC;
+          }
+        }
+  
+  
+      }
+    }
+  }
+  
