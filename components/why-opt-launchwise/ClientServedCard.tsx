@@ -6,15 +6,15 @@ const ClientServedCard = () => {
   return (
     <div id="ClientServedCard" className="ClientServedCard">
       <div className="w-80">
-      <div className="why_opt_img">
-        <Image
-            alt=""
-            className=""
-            loading="lazy"
-            height={264}
-            src={why_opt_launch}
-          />
-        </div>
+        <div className="why_opt_img">
+          <Image
+              alt=""
+              className=""
+              loading="lazy"
+              height={264}
+              src={why_opt_launch}
+            />
+          </div>
         <div className="client-container">
           <div>
             <h2 className="client-numbers">10,000+</h2>

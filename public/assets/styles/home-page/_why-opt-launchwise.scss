@@ -8,6 +8,7 @@
  .ClientServedCard{
         position: relative;
         margin-bottom: 230px;
+    
     }
   .client-container{
     background-color: #EFEFEF;
@@ -213,7 +214,20 @@
             max-width: 159.45px;
             height: 198.55px;   
             left: 184.21px;
+
         }
        
     }
+        @media screen and (max-width : 490px) {
+            .why_opt_img{
+                max-width: 100%; 
+                left: 25.5%;
+            }
+        }
+        @media screen and (max-width : 390px) {
+            .why_opt_img{
+                max-width: 100%; 
+                left: 15.5%;
+            }
+        }
 }
