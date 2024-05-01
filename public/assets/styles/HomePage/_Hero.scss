@@ -1,0 +1,179 @@
+.hero-container {
+  background-image: url("../../../../assets/HomePage/hero.svg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100vw;
+  height: 765px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  ::placeholder {
+    color: #393939;
+  }
+  .heading {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 56px;
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    h1 {
+      font-size: 56px;
+      font-weight: 600;
+      line-height: 56px;
+      letter-spacing: -1px;
+    }
+  }
+  .form-max {
+    width: 858.61px;
+    height: 104.59px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f4f3f0;
+    margin-bottom: 32px;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        padding-top: 12px;
+      div {
+        position: relative;
+        input {
+          width: 587.5px;
+          height: 56.59px;
+          border: none;
+          outline: none;
+          padding-left: 16px;
+        }
+        a {
+          position: absolute;
+          right: 16px;
+          z-index: 10;
+        }
+      }
+      button {
+        background-color: #2962ff;
+        color: #ffffff;
+        width: 191.11px;
+        height: 56px;
+        border-radius: 8px;
+        border: 0;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 15.96px;
+        letter-spacing: 0.87px;
+        .searchIcon {
+          width: 17.87px;
+          height: 17px;
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+  .form-min {
+    width: 328px;
+    height: 114px;
+    border-radius: 9px;
+    border: none;
+    background-color: #f4f3f0;
+    margin-bottom: 32px;
+    div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        label{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            color: #393939;
+            padding: 7px;
+            justify-content: flex-start;
+            margin-left: -169px;
+        }
+      div {
+        position: relative;
+        input {
+          width: 299px;
+          height: 39px;
+          border: 1px solid blue;
+          outline: none;
+          padding-left: 16px;
+        }
+        .search {
+          position: absolute;
+          width: 17.87px;
+          height: 17px;
+          left: 16px;
+          top: 12px;
+          z-index: 20;
+        }
+      }
+    a{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 12.14px;
+        padding: 10px;
+        justify-content: flex-end;
+        margin-right: -190px;
+        }
+    }
+  }
+  .cities {
+    width: 740.77px;
+    height: 146px;
+    .text {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 16px;
+      color: #ffffff;
+      margin-bottom: 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div {
+          width: 73.59px;
+          height: 73.59px;
+          border: 0;
+          border-radius: 11.77px;
+          background-color: #f4f3f0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        span {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 24px;
+          color: #ffffff;
+          width: auto;
+          margin-top: 6px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.Hero {
+  @media screen and (max-width: 990px) {
+    .cities {
+      .text {
+        text-align: center;
+      }
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+    }
+  }
+}
