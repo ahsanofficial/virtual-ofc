@@ -17,7 +17,7 @@ export default function Home() {
         <NextNProgress color="#ffa229" height={5} />
         <Header />
         <Hero />
-        <Oursolution/>
+        <Oursolution/> 
         <DiscoverTheUltimate />
         <UseVirtualAddress />
         <DetailsWhyOpt />

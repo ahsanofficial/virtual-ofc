@@ -41,11 +41,10 @@ const Oursolution = () => {
                             height={50}
                         />
                     </div>
-                </div>
+                </div>  
             </div>
 
-
-
+ 
             <div className="icon-subcontainer">
                 <div className="icon">
                     <Image
