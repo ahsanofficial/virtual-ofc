@@ -1,233 +1,212 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
 
-*{
-    font-family: Assistant,sans-serif;
+* {
+  font-family: Assistant, sans-serif;
 }
-.why-opt-launchwise{
- .ClientServedCard{
-        position: relative;
-        margin-bottom: 230px;
-    
-    }
-  .client-container{
-    background-color: #EFEFEF;
-    width: 303px;
-    height: 424px;
-    text-align: center;
-    position: absolute;
-    top: 52px;
+.why-opt-launchwise {
+  .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 167px;
+    margin-bottom: 162px;
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    // first component here
+    .first-compoent {
+      width: 100%;
+      position: relative;
+
+
+      .client-container {
+        width: 303px;
+        background-color: #efefef;
+        padding: 16px 0;
+        position: absolute;
+        top: 52px;
+
     
-  }
-  .client-numbers{
-    color: #2962FF;
-    font-family: Assistant,sans-serif;
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 600;
-     
-  }
-  .client-para{
-    font-family: Assistant, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 48px;
-    color: #393939;
-  }
-  
-  .why_opt_img{
-    position: absolute;
-    z-index: -1;
-    width: 212px;
-    height: 264px;
-    left: 221px;
-  }
 
-
-//   right part of the component
-.DetailsWhyOpt{
-    display: flex;
-    justify-content: space-center;
-}
-.open-pipe{
-    height: 69px;
-    width: 5px;
-    color: #2962FF;
-}
-
-.first-compoent{
-    display: block;
-    width: 100%;
-}
-
-// font design
-    .heading{
-        color: #393939;
-        font-size: 56px;
-        line-height: 50px;
-        font-weight: 400; 
-    }
-
-    .heading-para{
-        color: #393939;
-
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;   
-        margin: 48px 0; 
-    }
-    
-    .accordians{
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 24px;
-        display: flex;
-        gap: 6px;
-        align-items: center;
-    }
-
-    .accordian-container{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
-    .para{
-        color: #393939;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;   
-    }
-  
-    .opend-heading{
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-        padding: 0;
-        align-items: center;
-        
-    }
-    .open-pipe{
-        background-color: #2962FF;
-        width: 5px;
-        height: 69px;
-        margin-bottom: 15px;
-    }
-    .openedHead{
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 24px;
-        
-    }
-
-
-    @media screen and (max-width : 990px) {
-        .DetailsWhyOpt{
-            flex-direction: column;
-            gap: 0;
+        @include tablet {
+          width: 227.89px;
+          height: 318.89px;
+          left: 18px;
+          top: 39px;
         }
-        .heading{
-           line-height: 24px;  
-           font-weight: 400;
-           font-size: 30px;
-        }
-        .heading-para{
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            margin: 18px 0;
-        }
-        .opend-heading{
-            
+        @include min-devices{
+            position: static;
             display: flex;
-            align-items: center;
-            align-content: center;
-        }
-        .openedHead{
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 19.36px;
-            margin-top: 40px;
-        }
-        .open-pipe{
-            align-self: flex-end;
-        }
-
-        .para{
-        font-size: 12.9px;
-        font-weight: 400;
-        line-height: 19.36px;
-
-        }
-        .accordian-container{
-
-            gap: 24px;
-        }
-        .accordians{
-            font-family: Assistant;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 19.36px;
-
-
-        }
-        .accordians>img{
-            height: 9px;
-            width: 9px;
-        }
-        .ClientServedCard{
-            position: relative;
+            justify-content: center;
             width: 100%;
-            margin-bottom:430px;
+            margin: auto;
+            flex-direction: column;
+            margin: 5rem 0;
         }
 
-        // left ::part
-        .client-container{
-            max-width: 227.89px;
-            height: 318.89px;
-            left: 18px;
-            gap: 10px;
-            
-        }
-        .client-numbers{
+        h2 {
+          font-family: Assistant;
+          font-size: 40px;
+          font-weight: 600;
+          margin-top: 0px;
+          text-align: center;
+          color: #2962ff;
+          @include tablet {
             font-family: Assistant;
             font-size: 30.08px;
             font-weight: 600;
-          
-            text-align: center;  
-            margin: 0;
-            padding: 0;          
+            text-align: center;
+          }
         }
-
-        .client-para-clients{
+        p {
+          font-family: Assistant;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 16px;
+          margin-top: 0px;
+          @include tablet {
             font-family: Assistant;
             font-size: 13.54px;
             font-weight: 400;
             text-align: center;
-            margin: 0;
-            padding: 0;  
+          }
         }
-        .why_opt_img{
-            max-width: 159.45px;
-            height: 198.55px;   
-            left: 184.21px;
+      }
+      .ClientServedCard-img {
+        width: 212px;
+        height: 264px;
+        margin-left: 221px;
+        gap: 0px;
+        @include tablet {
+            max-width: 159px;
+            height: 198.55px;
+            margin-left: 184.21px;
+            gap: 0px;
+            
+        }
+        @include min-devices{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+       }
+      
+      }
+    }
+
+
+
+    // second component here
+    .second-component {
+      width: 100%;
+      .heading {
+        font-family: Assistant;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        @include tablet{
+            margin-top: calc(10rem + 48px);
+            font-family: Assistant;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #393939;
+        }
+        @include min-devices{
+            margin-top: 0rem;
+        }
+      }
+      .heading-para {
+        font-family: Assistant;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin: 24px 0 18px 0;
+        @include tablet{
+            font-family: Assistant;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
 
         }
-       
+      }
+
+      .open-accordians {
+        display: flex;
+        gap: 19px;
+        align-items: center;
+        margin-top: 22px;
+        .vr-line {
+          width: 8px;
+          height: 69px;
+          gap: 0px;
+          background-color: #2962ff;
+        }
+        h3 {
+          font-family: Assistant;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 24px;
+          text-align: left;
+          @include tablet{
+            font-family: Assistant;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 19.36px;
+            text-align: left;
+          }
+        }
+        p {
+          font-family: Assistant;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          margin-top: 18px;
+          margin-bottom: 0;
+
+          @include tablet{
+            font-family: Assistant;
+            font-size: 12.9px;
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;
+
+          }
+        }
+      }
+
+      .accordian-container {
+        h3 {
+          font-family: Assistant;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          margin-top: 32px;
+          color: #393939;
+          @include tablet{
+            font-family: Assistant;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;
+
+          }
+
+          img {
+            margin-right: 18px;
+            @include tablet{
+                margin-right: 10px;
+            }
+          }
+        }
+      }
     }
-        @media screen and (max-width : 490px) {
-            .why_opt_img{
-                max-width: 100%; 
-                left: 35.5%;
-            }
-        }
-        @media screen and (max-width : 390px) {
-            .why_opt_img{
-                max-width: 100%; 
-                left: 15.5%;
-            }
-        }
+  }
 }
