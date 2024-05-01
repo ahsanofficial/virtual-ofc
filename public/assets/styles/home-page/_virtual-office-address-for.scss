@@ -1,0 +1,106 @@
+.virtual-office-address-for {
+  * {
+    font-family: Assistant;
+  }
+  .list-virtual-addres {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .list-para {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .container-virtual-office {
+    display: flex;
+    gap: 136px;
+  }
+  .icons {
+    width: 107.86px;
+    height: 107.86px;
+    gap: 0px;
+    border-radius: 53.93px 0px 0px 0px;
+  }
+  .title {
+    font-family: Assistant;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24.15px;
+    text-align: left;
+    color: #2962ff;
+  }
+  .details {
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.15px;
+    text-align: left;
+    color: #777777;
+  }
+  .virtual_office_main_img {
+    max-width: 526px;
+    max-height: 761px;
+  }
+
+  //font design
+
+  .heading {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 990px) {
+    .container-virtual-office {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heading {
+      font-family: Assistant;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 56px;
+      text-align: left;
+    }
+    .title {
+      font-family: Assistant;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24.15px;
+      text-align: left;
+    }
+    .details {
+      font-family: Assistant;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+    .icons {
+      width: 60px;
+      height: 60px;
+      gap: 0px;
+      border-radius: 53.93px 0px 0px 0px;
+      opacity: 0px;
+    }
+    .list-virtual-addres {
+      margin-top: 10px;
+      gap: 10px;
+    }
+
+  .list-para {
+  
+    gap: 10px;
+  }
+  .virtual_office_main_img {
+    width: 100%;
+  }
+  }
+}
