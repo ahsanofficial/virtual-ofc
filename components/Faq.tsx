@@ -54,7 +54,8 @@ const Faq = () => {
         setOpenItem(prevOpenItem => prevOpenItem === itemId ? null : itemId);
     };
   return (
-    <div id='Faq' className="container">
+    <div id='Faq' className="home_faq_component">
+    <div  className="container">
         <div className="heading-container">
             <h1 className="heading">Questions in mind?</h1>
             <h2 className="heading-two">Read our FAQ</h2>
@@ -79,6 +80,7 @@ const Faq = () => {
                 </div>
             ))}
         </div>
+      </div>
     </div>
   );
 };

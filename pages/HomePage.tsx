@@ -17,7 +17,7 @@ const Home = () => {
             <Header />
             <Hero />
             <DiscoverTheUltimate />
-        <Footer></Footer>
+           <Footer></Footer>
         </div>
     )
 }

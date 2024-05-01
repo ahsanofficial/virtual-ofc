@@ -6,7 +6,8 @@ import right_arrow from "../../assets/icons/right_arrow.svg";
 
 const DetailsWhyOpt = () => {
   return (
-    <div id="DetailsWhyOpt" className="container DetailsWhyOpt">
+    <div id="DetailsWhyOpt" className=" why-opt-launchwise">
+    <div  className="container DetailsWhyOpt why-opt-launchwise">
       <div className="first-compoent">
         <ClientServedCard/>
       </div>
@@ -26,6 +27,7 @@ const DetailsWhyOpt = () => {
             <h3 className="accordians"><Image src={right_arrow} alt="right arrow" />Cost-Effective Solutions with Modern Amenities</h3>
             </div>
       </div>
+    </div>
     </div>
   );
 };

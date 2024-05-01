@@ -41,7 +41,7 @@ const useVirtualAddressItems = [
 ];
 const UseVirtualAddress = () => {
   return (
-    <div id="UseVirtualAddress">
+    <div id="UseVirtualAddress" className="virtual-office-address-for">
       <div className="container">
         <h2 className="heading">Use Virtual Address For</h2>
         <div className="container-virtual-office">
