@@ -1,0 +1,219 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+*{
+    font-family: Assistant,sans-serif;
+}
+.why-opt-launchwise{
+ .ClientServedCard{
+        position: relative;
+        margin-bottom: 230px;
+    }
+  .client-container{
+    background-color: #EFEFEF;
+    width: 303px;
+    height: 424px;
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .client-numbers{
+    color: #2962FF;
+    font-family: Assistant,sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+     
+  }
+  .client-para{
+    font-family: Assistant, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #393939;
+  }
+  
+  .why_opt_img{
+    position: absolute;
+    z-index: -1;
+    width: 212px;
+    height: 264px;
+    left: 221px;
+  }
+
+
+//   right part of the component
+.DetailsWhyOpt{
+    display: flex;
+    justify-content: space-center;
+}
+.open-pipe{
+    height: 69px;
+    width: 5px;
+    color: #2962FF;
+}
+
+.first-compoent{
+    display: block;
+    width: 100%;
+}
+
+// font design
+    .heading{
+        color: #393939;
+        font-size: 56px;
+        line-height: 50px;
+        font-weight: 400; 
+    }
+
+    .heading-para{
+        color: #393939;
+
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;   
+        margin: 48px 0; 
+    }
+    
+    .accordians{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .accordian-container{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .para{
+        color: #393939;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;   
+    }
+  
+    .opend-heading{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        padding: 0;
+        align-items: center;
+        
+    }
+    .open-pipe{
+        background-color: #2962FF;
+        width: 5px;
+        height: 69px;
+        margin-bottom: 15px;
+    }
+    .openedHead{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 24px;
+        
+    }
+
+
+    @media screen and (max-width : 990px) {
+        .DetailsWhyOpt{
+            flex-direction: column;
+            gap: 0;
+        }
+        .heading{
+           line-height: 24px;  
+           font-weight: 400;
+           font-size: 30px;
+        }
+        .heading-para{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 18px 0;
+        }
+        .opend-heading{
+            
+            display: flex;
+            align-items: center;
+            align-content: center;
+        }
+        .openedHead{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 19.36px;
+            margin-top: 40px;
+        }
+        .open-pipe{
+            align-self: flex-end;
+        }
+
+        .para{
+        font-size: 12.9px;
+        font-weight: 400;
+        line-height: 19.36px;
+
+        }
+        .accordian-container{
+
+            gap: 24px;
+        }
+        .accordians{
+            font-family: Assistant;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 19.36px;
+
+
+        }
+        .accordians>img{
+            height: 9px;
+            width: 9px;
+        }
+        .ClientServedCard{
+            position: relative;
+            width: 100%;
+            margin-bottom:430px;
+        }
+
+        // left ::part
+        .client-container{
+            max-width: 227.89px;
+            height: 318.89px;
+            left: 18px;
+            gap: 10px;
+            
+        }
+        .client-numbers{
+            font-family: Assistant;
+            font-size: 30.08px;
+            font-weight: 600;
+          
+            text-align: center;  
+            margin: 0;
+            padding: 0;          
+        }
+
+        .client-para-clients{
+            font-family: Assistant;
+            font-size: 13.54px;
+            font-weight: 400;
+            text-align: center;
+            margin: 0;
+            padding: 0;  
+        }
+        .why_opt_img{
+            max-width: 159.45px;
+            height: 198.55px;   
+            left: 184.21px;
+        }
+       
+    }
+}
