@@ -2,7 +2,12 @@
   * {
     font-family: Assistant;
   }
+  .outer-container{
+    background-color: #F5F5F5;
+    width: 100%;
+  }
   .list-virtual-addres {
+    
     display: flex;
     gap: 56px;
     align-items: center;
@@ -101,6 +106,7 @@
   }
   .virtual_office_main_img {
     width: 100%;
+    height: 100%;
   }
   }
 }
