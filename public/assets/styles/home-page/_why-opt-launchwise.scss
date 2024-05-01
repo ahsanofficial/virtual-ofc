@@ -8,9 +8,10 @@
     display: flex;
     margin-top: 167px;
     margin-bottom: 162px;
-
+    
     @include tablet {
       flex-direction: column;
+      margin-bottom: 130px;
     }
 
     // first component here
