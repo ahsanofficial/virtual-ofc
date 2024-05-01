@@ -1,7 +1,17 @@
 // bootstrap
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// screens
+@import "./screens.scss";
+
 // components'
 // @import "./components/header";
+
 @import "./HomePage/Header";
 @import "./HomePage/Hero";
+
+
+// pages
+@import "./components/footer";
+@import "./components/HomePage/discovertheultimate"
+

@@ -1,0 +1,173 @@
+
+.discover-the-ultimate{
+
+    .container{
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+
+        @include tablet{
+            flex-direction: column-reverse;
+        }
+
+
+        
+        .image-section{
+            width: 45%;
+
+            display: flex;
+            align-items: center;
+
+            .image-section-container{
+                width: 72%;
+            }
+            .image-container{
+                position: relative;
+                width: 80%;
+                margin: 0 auto;
+                aspect-ratio: 1/1;
+                background: linear-gradient(#D0D0D0 0%,#D0D0D0 50%, rgba(37, 12, 12, 0) 100%);
+
+                .top-right{
+                    position: absolute;
+                    width: 70%;
+                    height: auto;
+                    top: -50%;
+                    right: -10%;
+                    z-index: 20;
+                }
+                .bottom-left{
+                    position: absolute;
+                    top: 10%;
+                    left: -10%;
+                    width: 90%;
+                    height: auto;
+                    z-index: 10;
+                }
+            }
+
+
+
+            @include tablet{
+                width: 90%;
+                margin:350px auto 0px auto;
+
+                .image-section-container{
+                    width: 100%;
+                }
+
+                .image-container{
+                    width: 100%;
+                }
+            }
+            @include mobile{
+                margin: 200px auto 0 auto;
+            }
+            
+        }
+        
+        .text-section{
+            width: 55%;
+
+            
+            .heading{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                width: 75%;
+                color: #393939;
+                margin-bottom: 2.5rem;
+
+                h2{
+                    font-size: 56px;
+                    font-weight: 400;
+                    line-height: 56px;
+                    letter-spacing: -1px;
+                    text-align: left;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #393939;
+                }
+            }
+
+            .data-points{
+                display: grid;
+                grid-template-columns: 1fr 1fr;                
+                gap: 2.5rem;
+
+                li{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    text-align: left;
+                    color: #393939;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    text-align: left;
+                    color: #777777;
+
+                }
+            }
+
+            .call-to-action{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+                color: #2962FF;
+            }
+
+            @include tablet{
+                width: 100%;
+
+                .heading{
+                    width: 100%;
+                    margin-bottom: 1.25rem;
+
+                    h2{
+                        font-size: 40px;
+                        line-height: 48px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                .data-points{
+                    row-gap: 1.25rem;
+                    column-gap: 3rem;                    
+                }
+            }
+
+            @include mobile{
+                width: 100%;
+
+                .heading{
+                    width: 100%;
+                    margin-bottom: 1.25rem;
+
+                    h2{
+                        font-size: 32px;
+                        line-height: 40px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+                .data-points{
+                    grid-template-columns: 1fr;
+                    gap: 1.25rem;
+                }
+            }
+        }
+    }
+
+}
