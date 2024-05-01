@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+.home_faq_component {
+  .container {
+    width: 1280px;
+    margin: 10rem auto;
+  }
+  .all-faq {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .question-card {
+    background-color: #f2f5fe;
+    padding: 20px 25px;
+    cursor: pointer;
+    border-radius: 17px;
+  }
+  .icon {
+    height: 10px;
+    width: 10px;
+  }
+  .rotate-icon {
+    transform: rotate(45deg);
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2962ff;
+    text-align: center;
+    font-family: Assistant,sans-serif;
+    line-height: 32px;
+  }
+  .heading-two {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    color: #303a42;
+    font-family: Assistant, sans-serif;
+    margin-top: 5px;
+  }
+  .ques {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 20px;
+    color: #303a42;
+    font-family: Assistant, sans-serif;
+  }
+
+  .ans {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #303a42;
+    font-family: Assistant, sans-serif;
+  }
+
+  .border-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+
+  .hr-border {
+    border-top: 2px solid #b3b4b9;
+    width: 224px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 990px) {
+    .container {
+      width: 100%;
+    }
+    .all-faq {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .border-container {
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+    .hr-border {
+      width: 93px;
+      text-align: center;
+    }
+    .heading {
+      font-size: 32px;
+      font-weight: 600;
+      color: #2962ff;
+      text-align: center;
+    }
+    .heading-two {
+      text-align: center;
+      font-weight: 400;
+      font-size: 24px;
+    }
+    .ques {
+      font-size: 14px;
+      font-weight: 600px;
+      line-height: 20px;
+      color: #303a42;
+      font-family: Assistant, sans-serif;
+    }
+    .ans {
+      font-size: 14px;
+      font-weight: 400px;
+      line-height: 20px;
+      color: #303a42;
+      font-family: Assistant, sans-serif;
+    }
+  }
+}
