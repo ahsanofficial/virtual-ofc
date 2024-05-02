@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import Image from 'next/image';
 
 import oursolution from "../assets/oursolution/oursolution.svg"
@@ -23,8 +23,8 @@ const Oursolution = () => {
                         className='image'
                         src={oursolution}
                         alt="Our Solution Image"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -37,22 +37,22 @@ const Oursolution = () => {
                         <Image
                             src={arrow}
                             alt="Arrow"
-                            width={50}
-                            height={50}
+                            width={31}
+                           
                         />
                     </div>
                 </div>  
             </div>
 
- 
+  
             <div className="icon-subcontainer">
                 <div className="icon">
                     <Image
                         className='image'
                         src={talktous}
                         alt="Talk to Us"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -65,8 +65,7 @@ const Oursolution = () => {
                         <Image
                             src={arrow}
                             alt="Arrow"
-                            width={50}
-                            height={50}
+                            width={31}
                         />
                     </div>
                 </div>
@@ -77,8 +76,8 @@ const Oursolution = () => {
                         className='image'
                         src={bookworkspace}
                         alt="Book workspace"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -91,8 +90,7 @@ const Oursolution = () => {
                         <Image
                             src={arrow}
                             alt="Arrow"
-                            width={50}
-                            height={50}
+                            width={31}
                         />
                     </div>
                 </div>
@@ -104,8 +102,8 @@ const Oursolution = () => {
                         className='image'
                         src={virtualoffice}
                         alt="set up a virtual office"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -118,8 +116,7 @@ const Oursolution = () => {
                         <Image
                             src={arrow}
                             alt="Arrow"
-                            width={50}
-                            height={50}
+                            width={31}
                         />
                     </div>
                 </div>
@@ -136,8 +133,8 @@ const Oursolution = () => {
                         className='image'
                         src={buyamembership}
                         alt="Buy a membership"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -150,8 +147,7 @@ const Oursolution = () => {
                         <Image
                             src={arrow}
                             alt="Arrow"
-                            width={50}
-                            height={50}
+                            width={31}
                         />
 
                     </div>
@@ -163,8 +159,8 @@ const Oursolution = () => {
                         className='image'
                         src={exploreourapp}
                         alt="Explore our app"
-                        width={100}
-                        height={150}
+                        width={92}
+                        height={92}
                     />
                 </div>
                 <div className='icon-container'>
@@ -176,8 +172,7 @@ const Oursolution = () => {
                     <div className="button-icon"><Image
                         src={arrow}
                         alt="Arrow"
-                        width={50}
-                        height={50}
+                        width={31}
                     />
                     </div>
                 </div>
