@@ -1,0 +1,11 @@
+.landing-header{
+    background-image: url("../../../../../assets/images/landing-page/Hero/Hero-cover.svg");
+    width: 100vw;
+    height: 998px;
+}
+
+.landing-header{
+    @media  screen and (max-width: 990px) {
+        height: 980px;
+    }
+}
