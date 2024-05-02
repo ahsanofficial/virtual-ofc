@@ -8,6 +8,7 @@ import { Footer } from "../components/Footer/Footer";
 import { DiscoverTheUltimate } from "../components/HomePage/DiscoverTheUltimate"; 
 import Companies from "../components/trusted-by-largest-companies/Companies";
 import Oursolution from "../components/Oursolution";
+import Flexible from "../components/Flexible";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Oursolution/> 
+        <Flexible/>
         <DiscoverTheUltimate />
         <UseVirtualAddress />
         <Companies/>
