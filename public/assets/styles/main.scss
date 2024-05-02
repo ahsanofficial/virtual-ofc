@@ -19,7 +19,17 @@
 @import "./components/footer";
 @import "./components/HomePage/discovertheultimate";
 @import "./home-page/companies";
+@import "./components/footer";
+@import "./components/HomePage/discovertheultimate";
+@import "./components/oursolution";
+@import "./components/flexible";
+ 
 
+//landing pages
+@import "./components/landing-page/landingpagefooter";
+@import "./components/landing-page/partners";
+@import "./components/landing-page/newsletter-subscription"; 
+@import "./components/landing-page/free-download"; 
 @import "./components/landing-page/faq";
 @import "./components/landing-page/get-your-virtual-office";
 @import "./components/landing-page/accessible-affordable-adaptable";
@@ -27,15 +37,3 @@
 @import "./components/landing-page/Navigation";
 @import "./components/landing-page/Hero";
 @import "./components/landing-page/faq";
-
-
-
-// pages
-@import "./components/footer";
-@import "./components/HomePage/discovertheultimate";
-@import "./components/oursolution";
-@import "./components/flexible";
- 
-@import "./components/landing-page/landingpagefooter";
-@import "./components/landing-page/partners";
-@import "./components/landing-page/newsletter-subscription"; 
