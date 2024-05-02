@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.page-two-accessible-affordable-adaptable{
+        
+
+       .container{
+            background-color: #F4F4F4;
+            padding: 38.45px 66px 63px 89px;
+            border-radius: 30px;
+            margin-top: 100px;
+            h2{
+                font-family: Raleway;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 31.77px;
+                text-align: left;                
+                @include tablet{
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 31.77px;
+                text-align: left;
+                margin-top: 44px;
+
+                }
+
+            }
+            p{
+                font-family: Raleway;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18.15px;
+                text-align: left;
+                color: #666666;                
+                @include tablet{
+                    font-family: Raleway;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.07px;
+                    text-align: left;
+
+                }
+
+            }
+
+        .content-section{
+         
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+            margin-top: 52.55px;
+            @include tablet{
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 25px;
+                gap: 0;
+            }
+            .image-cls{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                img{
+                    max-width: 447px;
+                    max-height: 450px;
+                    gap: 0px;
+                    border-radius: 15px;
+                    @include tablet{
+                        width: 90%;
+                        margin:auto;
+                        height: 100%;
+                        margin-top: 25px;
+                    }
+                }
+    
+            }
+           
+            
+            .accessible-right-part{
+               
+                .details-grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    column-gap: 50px;
+                    row-gap: 40px;
+                    padding-top: 35px;
+                    @include tablet{
+                        column-gap: 43px;
+                        row-gap: 32px;
+                    }
+    
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        padding: 4.17px;                        
+                        gap: 0px;
+                        @include tablet{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                    h5{
+                        color: #252B42;
+                        font-family: Raleway;
+                        font-size: 21.18px;
+                        font-weight: 600;
+                        line-height: 31.77px;
+                        text-align: left;
+
+                        @include tablet{
+                            font-family: Raleway;
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 21.94px;
+                            text-align: left;
+                            margin: 6px 0 23px 0 ;
+    
+                        }
+    
+                    }
+                    p{
+                        font-family: Raleway;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18.15px;
+                        text-align: left;
+                        color: #353535DE;
+
+                        @include tablet{
+                            font-family: Raleway;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 14.63px;
+                            text-align: left;
+    
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
