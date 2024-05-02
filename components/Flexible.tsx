@@ -21,7 +21,18 @@ const Flexible = () => {
             
                 {/* Heading */}
                 <div className='top-header'>
-                <h2 className='top-heading' id='top-heading'>Flexible workspace designed around your needs</h2><div className='side-heading'><div> <Image src={india} alt="Image 1" /> Prices for India</div>   <div> <Image src={search} alt="Image 1" /> <input type="text"  placeholder='Search for a city or area to refine pricing'/></div></div>
+                <h2 className='top-heading' id='top-heading'>Flexible workspace designed around your needs</h2>
+                <div className='side-heading'><div> <Image src={india} alt="Image 1" /> Prices for India</div>   
+                <div> <Image src={search} alt="Image 1" /> <input type="text"  placeholder='Search for a city or area to refine pricing'/>
+                </div>
+                </div>
+               
+                </div>
+                <div className='price-heading'>
+                <div className='side-heading-two'><div> <Image src={india} alt="Image 1" /> Prices for India</div>   
+                <div className='flexing-div'> <Image src={search} alt="Image 1" /> <input type="text"  placeholder='Search for a city or area to refine pricing'/>
+                </div>
+                </div>
                 </div>
                 {/* Buttons */}
                 <div className="buttons">
