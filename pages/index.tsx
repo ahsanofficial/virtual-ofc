@@ -14,8 +14,8 @@ export default function Home() {
     <div>
       <>
         <NextNProgress color="#ffa229" height={5} />
-        {/* <Header />
-        <Hero /> */}
+        <Header />
+        <Hero />
         <Oursolution/> 
         <DiscoverTheUltimate />
         <UseVirtualAddress />
