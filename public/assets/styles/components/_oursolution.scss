@@ -11,9 +11,9 @@ body{
   height :204px;
   text-align: center;
   display: flex;
-  border: 2px solid #FFFFFF;
+  border: 2px solid rgba(226, 228,230, 1);
   border-radius: 16px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  // box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
  
   
@@ -86,20 +86,35 @@ body{
 }
 
 @media screen and (max-width: 844px)  {
+
+
+  .icon-subcontainer{
+    width: 351px;
+    margin-left: 20%;
+  }
   .icon-main {
       grid-template-columns: 1fr; 
-      align-items: center;
-      width: 100%;
+      
+      
+      
+     
   }
 }
 @media screen and (min-width: 844px) and (max-width: 1000px)  {
+
+  .icon-subcontainer{
+    width: 328px;
+    margin-left: 6%;
+  }
   .icon-main {
       grid-template-columns: repeat(2, 1fr); 
+      
       
   }
 }
 @media screen and (min-width: 1100px) and (max-width: 1400px)  {
   .icon-main {
       grid-template-columns: repeat(3, 1fr); 
+
   }
 }
