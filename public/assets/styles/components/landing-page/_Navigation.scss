@@ -138,3 +138,9 @@
         padding: 22px 28px;
     }
 }
+
+.Navigation{
+    @media screen and (max-width: 340px){
+        padding: 22px 10px;
+    }
+}

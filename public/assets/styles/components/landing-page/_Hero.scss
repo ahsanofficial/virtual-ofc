@@ -47,6 +47,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
+    width: 1046px;
     gap: 30px;
     margin-bottom: 75px;
     margin-top: -135px;
@@ -69,5 +70,6 @@
     @media screen and (max-width: 990px){
         grid-template-columns: 1fr;
         margin-top: 75px;
+        width: 329px;
     }
 }
