@@ -20,7 +20,7 @@
     @media (max-width: 550px) {
       @content;
     }
-}  
+}
 @mixin min-devices {
     @media (max-width: 370px) {
       @content;
