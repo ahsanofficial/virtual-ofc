@@ -107,11 +107,26 @@
 
 .Header{
     @media screen and (max-width: 990px){
-        .container{
-            gap: 5rem;
-        }
         .navigation-links, .enquire-button{
             display: none;
+        }
+    }
+}
+
+.Header{
+    @media screen and (max-width: 545px){
+        padding: 8px 32px;
+        div{
+            gap: 1.5rem;
+        }
+    }
+}
+
+.Header{
+    @media screen and (max-width: 385px){
+        padding: 8px 14px;
+        div{
+            gap: 1rem;
         }
     }
 }
