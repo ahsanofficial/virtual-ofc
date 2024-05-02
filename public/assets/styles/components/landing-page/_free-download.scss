@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.free-download{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 0;
+
+        @include tablet{
+            flex-direction: column-reverse;
+            padding: 0;
+            gap: 40px;
+        }
+        .typeography-container{
+            max-width: 509px;
+            display: flex;
+            flex-direction: column;
+
+            @include tablet{
+                width: 95%;
+            }
+            
+            h1{
+                font-family: Montserrat;
+                font-size: 48px;
+                font-weight: 800;
+                line-height: 58.51px;
+                text-align: left;
+                color: #1C4670;
+
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 30.22px;
+                    font-weight: 800;
+                    line-height: 36.83px;
+                    text-align: center;
+
+                }
+            }
+            h2{
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39.01px;
+                text-align: left;
+                color: #1C4670;
+              
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 20.14px;
+                    font-weight: 700;
+                    line-height: 24.56px;
+                    text-align: center;
+                    
+                }
+            }
+            p{
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32.16px;
+                text-align: left;
+                color: #1C4670;
+                padding: 40px 0;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 15.11px;
+                    font-weight: 400;
+                    line-height: 20.24px;
+                    padding: 24px 0;
+                    text-align: center;
+                    
+                }
+            }
+            button{
+                width: 410px;
+                height: 62px;
+                padding: 15px 62px 15px 62px;
+                border: none;
+                gap: 10px;
+                border-radius: 63.7px;
+                opacity: 0px;
+                background-color: #FFA229;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32.16px;
+                    text-align: left;
+                    &:hover{
+                        background-color: #1C4670;
+                        color: #FFA229;
+                    }
+                
+                @include tablet{
+                    width: 255.06px;
+                    height: 38.89px;
+                    padding: 9.44px 39.03px 9.44px 39.03px;
+                    gap: 6.3px;
+                    border-radius: 40.1px;
+                    margin: 0 auto;
+                            font-family: Montserrat;
+                            font-size: 15.11px;
+                            font-weight: 600;
+                            line-height: 20.24px;
+                            text-align: left;
+                           
+
+                }
+    
+            }
+            
+        }
+        .img-container{
+            img{
+                width: 415.32px;
+                height: 495px;
+                top: 12px;
+                left: 1238.32px;
+                gap: 0px;
+                @include tablet{
+                    width: 322.34px;
+                    height: 395px;
+                    gap: 0px;
+
+
+                }
+                @include mobile{
+                    width: 222.34px;
+                    height: 265px;
+                    gap: 0px;
+                }
+               
+            }
+        }
+      
+    }
+}
