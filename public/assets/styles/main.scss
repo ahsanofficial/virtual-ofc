@@ -9,7 +9,7 @@
 
 
 
-// home pages
+// home page
 
 @import "./HomePage/Header";
 @import "./HomePage/Hero";
@@ -25,7 +25,7 @@
 @import "./components/flexible";
  
 
-//landing pages
+//landing page one
 @import "./components/landing-page/landingpagefooter";
 @import "./components/landing-page/partners";
 @import "./components/landing-page/newsletter-subscription"; 
@@ -37,3 +37,7 @@
 @import "./components/landing-page/Navigation";
 @import "./components/landing-page/Hero";
 @import "./components/landing-page/faq";
+
+
+// landing page two
+@import "./components/landing-page-two/get-your-virtual-office"
