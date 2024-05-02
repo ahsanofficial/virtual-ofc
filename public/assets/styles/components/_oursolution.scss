@@ -85,12 +85,14 @@ body{
   padding-top:30px;
 }
 
-@media screen and (max-width: 720px)  {
+@media screen and (max-width: 844px)  {
   .icon-main {
       grid-template-columns: 1fr; 
+      align-items: center;
+      width: 100%;
   }
 }
-@media screen and (min-width: 720px) and (max-width: 1000px)  {
+@media screen and (min-width: 844px) and (max-width: 1000px)  {
   .icon-main {
       grid-template-columns: repeat(2, 1fr); 
   }
