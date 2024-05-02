@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.get-your-virtual-office{
+    .container{
+        .heading{
+            h2{
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    
+
+                }
+                span{
+                    font-family: Montserrat;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    @include tablet{
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        letter-spacing: 0.20000000298023224px;
+                        text-align: center;
+
+                    }
+
+                }
+    
+            }
+            p{
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 36px;
+                text-align: center;
+                padding: 38px 0 60px 0;
+                
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 36px;
+                    text-align: center;
+                    padding: 20px 0 43px 0;
+                }
+            }
+        }
+        .details-section{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            @include tablet{
+                flex-direction: column;
+                    gap:60px;
+            }
+            .arrows{
+                position: absolute;
+                width: 28%;
+                height: 20%;
+                gap: 0px;
+                border: 1px 0px 0px 0px;
+                opacity: 0px;
+                @include tablet{
+                    transform: rotate(90deg);
+                    width: 55%;
+                    height: 5%;
+                }
+
+            }
+            .top{
+                left: 17.3%;
+                top:0px;
+                @include tablet{
+                    top: 180px;
+                    left: 66.5%;
+                }
+            }
+            .down{
+                left: 55%;
+                top:28%;
+                @include tablet{
+                    left: -21.5%;
+                    top: 460px;
+                }
+            }
+            .all-details{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                img{
+                    width: 100px;
+                    height: 100px;
+                    left: 282px;
+                    gap: 0px;
+                    border-radius: 25px 0px 0px 0px;
+                    @include tablet{
+                        width: 70px;
+                        height: 70px;
+                        top: 171px;
+                        left: 145px;
+                        gap: 0px;
+                        opacity: 0px;
+
+                    }
+                }
+                h5{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    margin-top: 19.29px ;
+                    max-width: 293px;
+                    height: 48px;
+                    left: 271px;
+                    gap: 0px;
+                    color: #252B42;
+                    @include tablet{                
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0.10000000149011612px;
+                        text-align: center;
+                        margin-top: 12px;
+                        max-width: 80%;
+                    }
+                }
+                
+                p{
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    max-width: 318px;
+                    margin-top: 20px;
+                    color: #737373;
+                    @include tablet{
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 0.20000000298023224px;
+                        text-align: center;
+                        max-width: 80%;
+                        margin-top: 12px;
+                    }
+                }
+
+            }
+            .one{
+                h5{
+                    width: 123px;
+                }
+            }
+            .two{
+                h5{
+                    width: 186px;
+                }
+            }
+            .two{
+                h5{
+                    width: 195px;
+                }
+            }
+        }
+
+        
+    }
+}
