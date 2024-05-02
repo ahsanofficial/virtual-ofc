@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .accessible-affordable-adaptable{
-
+    background-color: #FAFAFA;
+    padding: 100px 0;
+    @include tablet{
+        padding-top: 0;
+        padding-bottom: 75px;
+    }
     .container{
         margin-top: 60px;
         display: flex;
@@ -25,7 +30,7 @@
                 opacity: 0px;
                 @include tablet{
                     width: 90%;
-                    margin: auto;
+                    margin:auto;
                     height: 100%;
                 }
             }

@@ -2,8 +2,13 @@
 
 
 .get-your-virtual-office{
+
     .container{
         margin-top: 162px;
+        margin-bottom: 50px;
+        @include tablet{
+            margin-bottom: 19px;
+        }
         .heading{
             h2{
                 font-family: Montserrat;
