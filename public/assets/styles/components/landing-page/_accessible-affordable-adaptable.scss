@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.accessible-affordable-adaptable{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        gap: 107px;
+        @include tablet{
+            flex-direction: column;
+            justify-content: center;
+            gap: 0;
+        }
+        .image-cls{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            img{
+                max-width: 491px;
+                max-height: 491px;
+                left: 176px;
+                gap: 0px;
+                opacity: 0px;
+                @include tablet{
+                    width: 90%;
+                    margin: auto;
+                    height: 100%;
+                }
+            }
+
+        }
+       
+        
+        .accessible-right-part{
+            h2{
+                font-family: Montserrat;
+                font-size: 24.21px;
+                font-weight: 700;
+                line-height: 31.77px;
+                text-align: left;
+                @include tablet{
+                    font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 31.77px;
+                text-align: left;
+                margin-top: 44px;
+
+                }
+
+            }
+            p{
+                font-family: Montserrat;
+                font-size: 13.62px;
+                font-weight: 400;
+                line-height: 18.15px;
+                text-align: left;
+                margin-top: 12px;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.07px;
+                    text-align: left;
+
+                }
+
+            }
+            .details-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 48px;
+                row-gap: 48px;
+                padding-top: 35px;
+                @include tablet{
+                    column-gap: 43px;
+                    row-gap: 32px;
+                }
+
+                img{
+                    width: 25.72px;
+                    height: 25.72px;
+                    gap: 0px;
+                    @include tablet{
+                        width: 39.72px;
+                        height: 36.72px;
+                    }
+                }
+                h5{
+                    color: #000000DE;
+                    font-family: Montserrat;
+                    font-size: 21.18px;
+                    font-weight: 500;
+                    line-height: 31.77px;
+                    text-align: left;
+                    @include tablet{
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 21.94px;
+                        text-align: left;
+                        margin: 6px 0 23px 0 ;
+
+                    }
+
+                }
+                p{
+                    color: #6B6B6BDE;
+                    font-family: Montserrat;
+                    font-size: 12.1px;
+                    font-weight: 400;
+                    line-height: 18.15px;
+                    text-align: left;
+                    @include tablet{
+                        font-family: Montserrat;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 14.63px;
+                        text-align: left;
+
+                    }
+
+                }
+            }
+        }
+    }
+}
