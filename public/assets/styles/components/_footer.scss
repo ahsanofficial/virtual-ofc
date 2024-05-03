@@ -164,6 +164,8 @@
         padding: 3rem 0;
   
         .virtual-offices{
+          display: grid;
+          gap: 2.5rem;
           .virtual-office-item{
             h4{
               font-size: 16px;
@@ -173,6 +175,7 @@
               color: white;
             }
             p{
+              padding-top: 1rem;
               font-size: 16px;
               font-weight: 400;
               line-height: 20px;
