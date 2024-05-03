@@ -6,16 +6,15 @@
         margin: 48px auto;
     }
     .container-new{
-      
-        max-width: 1612.99px;
+        max-width: 1400px;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(372.16px, 1fr));
-        row-gap: 34px;
-        column-gap: 40.48px;
+        grid-template-columns: repeat(auto-fit, minmax(300.16px, 1fr));
+        row-gap: 28px;
+        column-gap: 28px;
       
         @include tablet{
-            row-gap: 17.36;
+            row-gap: 10.36;
             column-gap: 17.48px;
             margin: auto;
         }
@@ -37,20 +36,15 @@
                 padding: 17px 0;
                 gap: 8%;
             }
-            @include min-devices{
-                width: 80%;
-                margin-left: 6%;
-            }
+           
 
             .details-card{
                 display: flex;
                 flex-direction: column;
-                gap: 27px;
+                gap: 10px;
 
                 @include tablet{
-                    gap: 15px;
-                    
-                    
+                    gap: 7px;
                 }
                 h4{
                     // width: 174px;
@@ -74,6 +68,7 @@
                     line-height: 24px;
                     text-align: left;
                     max-width: 170px;
+                    margin-top: 10px;
                     gap: 0px;
                     color: #616161;
 
@@ -91,8 +86,11 @@
                     height: 2px;
                     border-bottom: 2px solid #928d8d;
                     opacity: 0px;
-    
-    
+                    
+                    @include tablet{
+                        border-bottom: 1px solid #928d8d;
+                        
+                    }
                 }
                 .icon{
                     width: 95px;
