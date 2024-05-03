@@ -2,7 +2,7 @@ import React from 'react'
 
 export const NewsletterSubscription = () => {
   return (
-    <div className='newsletter-subscription'>
+    <div className='newsletter-subscription' style={{marginBottom:'109px'}}>
         <div className='title-text'>
             <h3>Subscribe For Latest</h3>
             <h3>Newsletter</h3>
