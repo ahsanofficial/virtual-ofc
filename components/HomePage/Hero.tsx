@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           <div>
             <div>
-              <Image src={noida} alt="Noida" width={45.63} height={45.63} />
+              <Image src={noida} alt="Noida" width={45.26} height={45.26} />
             </div>
             <span>Noida</span>
           </div>
@@ -58,8 +58,8 @@ const Hero = () => {
               <Image
                 src={bangalore}
                 alt="Bangalore"
-                width={45.63}
-                height={45.63}
+                width={53.28}
+                height={53.28}
               />
             </div>
             <span>Bangalore</span>
@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
           <div>
             <div>
-              <Image src={chennai} alt="Chennai" width={45.63} height={45.63} />
+              <Image src={chennai} alt="Chennai" width={45.26} height={45.26} />
             </div>
             <span>Chennai</span>
           </div>

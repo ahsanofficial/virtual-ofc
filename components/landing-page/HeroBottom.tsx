@@ -5,7 +5,7 @@ import userWhite from "../../assets/icons/landing-page/user-white.svg";
 
 const HeroBottom = () => {
   return (
-    <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <div className="hero-bottom-box">
       <div className="hero-box">
         <div>
           <Image src={userBlack} alt="User" />
