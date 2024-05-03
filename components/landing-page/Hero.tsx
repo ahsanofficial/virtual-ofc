@@ -1,4 +1,5 @@
 import React from "react";
+import ZohoFormService from "../child_component/ZohoformService";
 
 const Hero = () => {
   return (
@@ -7,7 +8,9 @@ const Hero = () => {
         <h1>
           Work From Anywhere, Grow Everywhere. Get Your Instant Virtual Office
         </h1>
-        <div className="form"></div>
+        <div className="form">
+                <ZohoFormService service={'appointment-of-managing-director'} />
+            </div>
       </div>
     </div>
   );

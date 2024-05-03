@@ -8,6 +8,7 @@ import facebook from '../../../public/assets/icons/facebook.svg'
 import instagram from '../../../public/assets/icons/instagram.svg'
 import linkedin from '../../../public/assets/icons/linkedin.svg'
 import twitter from '../../../public/assets/icons/twitter.svg'
+import ZohoFormService from '../../child_component/ZohoformService'
 
 export const Footer = () => {
   return (
@@ -21,8 +22,8 @@ export const Footer = () => {
             className="background-image"
         />
         <div className='footer-content-container'>
-            <div className='form-container'>
-                
+              <div className="form-container">
+                <ZohoFormService service={'appointment-of-managing-director'} />
             </div>
 
             <div className='links-and-contacts'>
