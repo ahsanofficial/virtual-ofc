@@ -22,7 +22,7 @@
     }
 }
 @mixin min-devices {
-    @media (max-width: 300px) {
+    @media (max-width: 370px) {
       @content;
     }
 }
