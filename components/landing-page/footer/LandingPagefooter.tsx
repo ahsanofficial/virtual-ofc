@@ -22,26 +22,7 @@ export const Footer = () => {
         />
         <div className='footer-content-container'>
             <div className='form-container'>
-                <form action="">
-                    <h2>What is the most unusual ice cream flavor you've ever tried?</h2>
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <button type="submit">Submit</button>
-                </form>
+                
             </div>
 
             <div className='links-and-contacts'>
