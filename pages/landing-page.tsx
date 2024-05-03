@@ -7,6 +7,8 @@ import AccessibleAffordableAdaptable from "../components/landing-page/Accessible
 import { Footer } from "../components/landing-page/footer/LandingPagefooter";
 import { Partners } from "../components/landing-page/Partners";
 import { NewsletterSubscription } from "../components/landing-page/NewsletterSubscription";
+import FreeDownload from "../components/landing-page/FreeDownload";
+import Carousel from "../components/landing-page-two/client-testimonial/Carousel";
 
 
 export default function Home() {
@@ -16,10 +18,12 @@ export default function Home() {
         <NextNProgress color="#ffa229" height={5} />
          <Header />
          <HeroBottom />
+         <FreeDownload/>
          <GetYourVirtualOffice/>
          <AccessibleAffordableAdaptable/>
         <Partners/>
         <NewsletterSubscription />
+        <Carousel/>
         <Faq />
         <Footer></Footer>
       </>

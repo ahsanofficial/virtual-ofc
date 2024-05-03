@@ -26,3 +26,30 @@
       @content;
     }
 }
+
+
+
+
+// /* scrollbar */
+body{
+  // overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #FFA229;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1C4670;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #FFA229;
+}
+
+

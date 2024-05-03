@@ -5,6 +5,7 @@ import Hero from '../components/HomePage/Hero';
 import { Footer } from '../components/Footer/Footer'
 import { DiscoverTheUltimate } from '../components/HomePage/DiscoverTheUltimate'
 import Oursolution from '../components/Oursolution'
+import Flexible from '../components/Flexible';
  
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Header />
             <Hero />
             <Oursolution/> 
+            <Flexible/>
             <DiscoverTheUltimate />
            <Footer></Footer>
         </div>

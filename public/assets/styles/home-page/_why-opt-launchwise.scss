@@ -6,7 +6,7 @@
 .why-opt-launchwise {
   .container {
     display: flex;
-    margin-top: 167px;
+    margin-top: 100px;
     margin-bottom: 162px;
     
     @include tablet {
@@ -35,14 +35,11 @@
           left: 18px;
           top: 39px;
         }
-        @include min-devices{
-            position: static;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: auto;
-            flex-direction: column;
-            margin: 5rem 0;
+        @include mobile{
+          width: 200.89px;
+          height: 318.89px;
+          left: 12px;
+          top: 39px;
         }
 
         h2 {
@@ -86,12 +83,12 @@
             gap: 0px;
             
         }
-        @include min-devices{
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: auto;
-       }
+        @include mobile{
+            max-width: 150px;
+            height: 198.55px;
+            margin-left: 140.21px;
+            gap: 0px;
+        }
       
       }
     }
@@ -105,7 +102,7 @@
         font-family: Assistant;
         font-size: 56px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 54px;
         text-align: left;
         @include tablet{
             margin-top: calc(10rem + 48px);
@@ -115,9 +112,6 @@
             line-height: 24px;
             text-align: left;
             color: #393939;
-        }
-        @include min-devices{
-            margin-top: 0rem;
         }
       }
       .heading-para {

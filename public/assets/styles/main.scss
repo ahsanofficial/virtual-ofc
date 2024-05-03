@@ -3,13 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-
 // screens
 @import "./screens.scss";
 
-
-
-// home pages
+// home page
 
 @import "./HomePage/Header";
 @import "./HomePage/Hero";
@@ -19,7 +16,16 @@
 @import "./components/footer";
 @import "./components/HomePage/discovertheultimate";
 @import "./home-page/companies";
+@import "./components/footer";
+@import "./components/HomePage/discovertheultimate";
+@import "./home-page/oursolution";
+@import "./components/flexible";
 
+//landing page one
+@import "./components/landing-page/landingpagefooter";
+@import "./components/landing-page/partners";
+@import "./components/landing-page/newsletter-subscription";
+@import "./components/landing-page/free-download";
 @import "./components/landing-page/faq";
 @import "./components/landing-page/get-your-virtual-office";
 @import "./components/landing-page/accessible-affordable-adaptable";
@@ -30,13 +36,11 @@
 @import "./components/landing-page-two/Header";
 @import "./components/landing-page-two/Hero";
 
-
-
-// pages
-@import "./components/footer";
-@import "./components/HomePage/discovertheultimate";
-@import "./components/oursolution";
- 
-@import "./components/landing-page/landingpagefooter";
-@import "./components/landing-page/partners";
-@import "./components/landing-page/newsletter-subscription";
+// landing page two
+@import "./components/landing-page-two/get-your-virtual-office";
+@import "./components/landing-page-two/trusted-companies";
+@import "./components/landing-page-two/page-two-accessible-affordable-adaptable";
+@import "./components/landing-page-two/faq";
+@import "./components/landing-page-two/slider-container";
+@import "./components/landing-page-two/faq";
+@import "./components/landing-page-two//landingpage2footer";

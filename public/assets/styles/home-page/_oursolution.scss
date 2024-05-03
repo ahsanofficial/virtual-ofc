@@ -1,0 +1,118 @@
+.our-solution{
+    margin-top: 39.87px;
+    margin-bottom: 48.32px;
+
+    @include tablet{
+        margin: 48px auto;
+    }
+    .container-new{
+        max-width: 1400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300.16px, 1fr));
+        row-gap: 28px;
+        column-gap: 28px;
+      
+        @include tablet{
+            row-gap: 10.36;
+            column-gap: 17.48px;
+            margin: auto;
+        }
+        .card-item{
+            border: 2px solid #EEF0F2;
+            cursor: pointer;
+            max-width:372.16px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 27.51px;
+
+            @include tablet{
+                width: 90%;
+                border-radius: 15.44px;
+                border: 1.93px solid #EEF0F2;
+                margin: auto;
+                padding: 17px 0;
+                gap: 8%;
+            }
+           
+
+            .details-card{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                @include tablet{
+                    gap: 7px;
+                }
+                h4{
+                    // width: 174px;
+                    gap: 0px;
+                    color: #2962FF;
+
+                    @include tablet{
+                        font-family: Assistant;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 23.15px;
+                    letter-spacing: 0.48235294222831726px;
+
+
+                    }
+                }
+                p{
+                    font-family: Assistant;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    text-align: left;
+                    max-width: 170px;
+                    margin-top: 10px;
+                    gap: 0px;
+                    color: #616161;
+
+                    @include tablet{
+                        font-family: Assistant;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 23.15px;
+                        text-align: left;
+                    }
+
+                }
+                .line{
+                    width: 100.27px;
+                    height: 2px;
+                    border-bottom: 2px solid #928d8d;
+                    opacity: 0px;
+                    
+                    @include tablet{
+                        border-bottom: 1px solid #928d8d;
+                        
+                    }
+                }
+                .icon{
+                    width: 95px;
+                    height: 95px;
+                    top: 0.29px;
+                    padding: 0px 0.97px 0px 0.97px;
+                    gap: 0px;
+
+                    @include tablet{
+                        width: 73.32px;
+                        height: 73.32px;
+                        gap: 0px;
+
+                    }
+    
+                }
+            }
+           
+
+        }
+
+        
+      
+    }
+}

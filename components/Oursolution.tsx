@@ -1,190 +1,67 @@
-import React from 'react'
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import oursolution from "../assets/oursolution/oursolution.svg"
-import talktous from "../assets/oursolution/talktous.svg"
-import bookworkspace from "../assets/oursolution/bookworkspace.svg"
-import virtualoffice from "../assets/oursolution/virtualoffice.svg"
-import buyamembership from "../assets/oursolution/buyamembership.svg"
-import exploreourapp from "../assets/oursolution/exploreourapp.svg"
-import arrow from "../assets/oursolution/arrow.svg"
+import oursolution from "../assets/oursolution/oursolution.svg";
+import talktous from "../assets/oursolution/talktous.svg";
+import bookworkspace from "../assets/oursolution/bookworkspace.svg";
+import virtualoffice from "../assets/oursolution/virtualoffice.svg";
+import buyamembership from "../assets/oursolution/buyamembership.svg";
+import exploreourapp from "../assets/oursolution/exploreourapp.svg";
+import arrow from "../assets/oursolution/arrow.svg";
 
-
+const our_solution_items = [
+  {
+    "title": "Our solutions",
+    "para": " Browse our full range of products and services.",
+    "icon":oursolution,
+  },
+  {
+    "title": "Talk to us",
+    "para": " Get advise from one of our experts 24/7.",
+    "icon":talktous,
+  },
+  {
+    "title": "Book workspace",
+    "para": "Book meeting rooms and  day offices now.",
+    "icon":bookworkspace,
+  },
+  {
+    "title": "Set up a virtual office",
+    "para": " Start building a real presence today.",
+    "icon":virtualoffice,
+  },
+  {
+    "title": "Buy a membership",
+    "para": " Start building a real presence today.",
+    "icon":buyamembership,
+  },
+  {
+    "title": "Explore our app",
+    "para": " Start building a real presence today.",
+    "icon":exploreourapp,
+  },
+];
 
 const Oursolution = () => {
-    return (
-
-        <div className='icon-main'>
-
-            <div className="icon-subcontainer">
-                <div className="icon">
-
-                    <Image
-                        className='image'
-                        src={oursolution}
-                        alt="Our Solution Image"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div>
-                        <div className="title-icon">Our solutions</div>
-                        <div className='underline'></div>
+  return (
+    <div className="our-solution">
+        <div className="container-new">
+            {
+                our_solution_items.map((item,index)=>(
+                    <div key={index} className="card-item">
+                        <Image src={item.icon} alt={item.title} className="icon"/>
+                        <div className="details-card">
+                            <h4>{item.title}<div className="line"></div></h4>
+                            <p>{item.para}</p>
+                             <Image src={arrow} alt={item.title}/>
+                        </div>
+                    
                     </div>
-                    <p className="description-icon"> Browse our full range of<br />products and services.</p>
-                    <div className="button-icon">
-                        <Image
-                            src={arrow}
-                            alt="Arrow"
-                            width={50}
-                            height={50}
-                        />
-                    </div>
-                </div>  
-            </div>
-
- 
-            <div className="icon-subcontainer">
-                <div className="icon">
-                    <Image
-                        className='image'
-                        src={talktous}
-                        alt="Talk to Us"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div className="title-icon">Talk to us</div>
-                    <div className='underline'></div>
-
-                    <p className="description-icon"> Get advise from one of our<br />experts 24/7.</p>
-
-                    <div className="button-icon">
-                        <Image
-                            src={arrow}
-                            alt="Arrow"
-                            width={50}
-                            height={50}
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="icon-subcontainer">
-                <div className="icon">
-                    <Image
-                        className='image'
-                        src={bookworkspace}
-                        alt="Book workspace"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div className="title-icon">Book workspace</div>
-                    <div className='underline'></div>
-
-                    <p className="description-icon">Book meeting rooms and <br />day offices now.</p>
-
-                    <div className="button-icon">
-                        <Image
-                            src={arrow}
-                            alt="Arrow"
-                            width={50}
-                            height={50}
-                        />
-                    </div>
-                </div>
-            </div>
-
-            <div className="icon-subcontainer">
-                <div className="icon">
-                    <Image
-                        className='image'
-                        src={virtualoffice}
-                        alt="set up a virtual office"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div className="title-icon"> Set up a virtual office</div>
-                    <div className='underline'></div>
-
-                    <p className="description-icon"> Start building a real<br />presence today.</p>
-
-                    <div className="button-icon">
-                        <Image
-                            src={arrow}
-                            alt="Arrow"
-                            width={50}
-                            height={50}
-                        />
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-            <div className="icon-subcontainer">
-                <div className="icon">
-                    <Image
-                        className='image'
-                        src={buyamembership}
-                        alt="Buy a membership"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div className="title-icon"> Buy a membership</div>
-                    <div className='underline'></div>
-
-                    <p className="description-icon"> Start building a real<br />presence today.</p>
-
-                    <div className="button-icon">
-                        <Image
-                            src={arrow}
-                            alt="Arrow"
-                            width={50}
-                            height={50}
-                        />
-
-                    </div>
-                </div>
-            </div>
-            <div className="icon-subcontainer">
-                <div className="icon">
-                    <Image
-                        className='image'
-                        src={exploreourapp}
-                        alt="Explore our app"
-                        width={100}
-                        height={150}
-                    />
-                </div>
-                <div className='icon-container'>
-                    <div className="title-icon"> Explore our app</div>
-                    <div className='underline'></div>
-
-                    <p className="description-icon"> Start building a real<br />presence today.</p>
-
-                    <div className="button-icon"><Image
-                        src={arrow}
-                        alt="Arrow"
-                        width={50}
-                        height={50}
-                    />
-                    </div>
-                </div>
-            </div>
-
+                ))
+            }
         </div>
-    )
-}
+    </div>
+  );
+};
 
-export default Oursolution
+export default Oursolution;

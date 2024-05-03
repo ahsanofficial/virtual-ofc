@@ -1,0 +1,51 @@
+.page-two-companies-comp{
+    .container{
+        margin-top: 100px;
+        .all-items-container{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 20% 80%;
+            column-gap: 40px;
+            @include tablet{
+                grid-template-columns: 1fr; 
+            }
+        
+            .list-comapny-log{
+
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(102px, 1fr));
+                column-gap: 54.52px;
+                row-gap: 45.88;
+                img{
+                    width: 102px;
+                    margin: auto;
+                    @include mobile{
+                        width: 86.32px;
+                    }
+                    @include tablet{
+                        width: 95.32px;
+                    }
+                }
+            }
+            h2{
+                font-family: Raleway,sans-serif;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 37.57px;
+                text-align: left;    
+                
+                @include tablet{
+                    
+                    font-family: Raleway,sans-serif;
+                    margin-bottom: 48px;
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    text-align: left;
+
+                }
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.page-two-get-your-virtual-office {
+  .container {
+    margin-top: 100px;
+    max-width: 1145.07px;
+    .heading {
+      margin-bottom: 60px;
+      h2 {
+        font-family: Raleway,sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        line-height: 32px;
+
+        @include tablet{
+            font-family: Raleway,sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+
+        }
+        span {
+          font-family: Raleway,sans-serif;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: center;
+          @include tablet{
+            font-family: Raleway,sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+
+          }
+        }
+      }
+      p {
+        font-family: Raleway,sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 36px;
+        text-align: center;
+        color: #2e2e2e;
+        text-align: left;
+
+        @include tablet{
+            font-family: Raleway,sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: center;
+
+        }
+      }
+    }
+    .details-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+      gap: 37.02px;
+
+      @include tablet{
+        grid-template-columns: 1fr;
+      }
+      .all-details {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        // justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        p {
+          font-family: Raleway,sans-serif;
+          font-size: 12.09px;
+          font-weight: 500;
+          line-height: 17.28px;
+          letter-spacing: 0.17275986075401306px;
+          color: #737373;
+          @include tablet{
+            width: 70%;
+            
+                font-family: Raleway,sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+
+          }
+          @include mobile{
+            width: 100%;
+          }
+        }
+        img {
+          width: 100%;
+          height: 100%;
+
+          @include tablet{
+            width: 70%;
+            height: 70%;
+          }
+          @include mobile{
+            width: 100%;
+            height: 100%;
+          }
+        }
+       
+      }
+    }
+  }
+}

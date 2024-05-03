@@ -8,6 +8,7 @@ import facebook from '../../../public/assets/icons/facebook.svg'
 import instagram from '../../../public/assets/icons/instagram.svg'
 import linkedin from '../../../public/assets/icons/linkedin.svg'
 import twitter from '../../../public/assets/icons/twitter.svg'
+import ZohoFormService from '../../child_component/ZohoformService'
 
 export const Footer = () => {
   return (
@@ -21,27 +22,8 @@ export const Footer = () => {
             className="background-image"
         />
         <div className='footer-content-container'>
-            <div className='form-container'>
-                <form action="">
-                    <h2>What is the most unusual ice cream flavor you've ever tried?</h2>
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Enter flavor name"
-                    />
-                    <button type="submit">Submit</button>
-                </form>
+              <div className="form-container">
+                <ZohoFormService service={'appointment-of-managing-director'} />
             </div>
 
             <div className='links-and-contacts'>

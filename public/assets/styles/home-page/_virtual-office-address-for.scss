@@ -7,9 +7,10 @@
     background-color: #F5F5F5;
     width: 100%;
 
-    @include mobile{
-      margin-top: -50px;
-      padding: 132px 0;
+    @include tablet{
+      margin: -50px 0;
+      padding-top: 132px;
+      padding-bottom: 0px;
     }
   }
   .list-virtual-addres {
@@ -29,6 +30,9 @@
   .container-virtual-office {
     display: flex;
     gap: 136px;
+    @include tablet{
+      gap: 48px;
+    }
   }
   .icons {
     width: 107.86px;
@@ -53,6 +57,7 @@
     color: #777777;
   }
   .virtual_office_main_img {
+    margin-bottom: -69px;
     max-width: 526px;
     max-height: 761px;
   }

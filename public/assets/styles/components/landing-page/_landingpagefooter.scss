@@ -18,7 +18,7 @@
         padding: 4rem 2rem;
         column-gap: 2rem;
 
-        background: linear-gradient(#D9D9D977 0%, #D9D9D922 100%);
+        background: linear-gradient(#D9D9D922 0%, #D9D9D900 100%);
         backdrop-filter: blur(2px);
         
 
@@ -27,6 +27,7 @@
             width: 100%;
             height: auto;
             aspect-ratio: 1/1;
+            background: transparent;
         }
 
         .links-and-contacts{
@@ -43,6 +44,11 @@
                 width: 100%;
                 display: flex;
                 justify-content: center;
+                img{
+                    filter: brightness(0) saturate(100%) invert(0%) sepia(96%) saturate(7500%) hue-rotate(16deg) brightness(100%) contrast(106%);
+                    width: auto;
+                    height: 76px;
+                }
             }
 
             .footer-connectwithus{
@@ -91,6 +97,8 @@
                 gap:3rem;
                 img {
                     filter: brightness(0) saturate(100%) invert(0%) sepia(96%) saturate(7500%) hue-rotate(16deg) brightness(100%) contrast(106%);
+                    height: 28px;
+                    width: 28px;
                 }
             }
         }
