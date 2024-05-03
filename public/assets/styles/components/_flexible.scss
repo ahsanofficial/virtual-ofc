@@ -15,6 +15,7 @@
 .images{
   margin-top: -27px !important;
 }
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;
@@ -204,7 +205,7 @@
 
 }
 
-@media screen and (min-width:421px) and (max-width:785px){
+@media screen and (min-width:421px) and (max-width:762px){
   #color-heading-three{
     margin-top: 19px;
   }
@@ -271,90 +272,101 @@
 
 
 
-@media screen and (min-width:785px)  and (max-width: 1029px) {
+// @media screen and (min-width:760px)  and (max-width: 1080px) {
 
 
-  #color-heading-three{
-    margin-top: 19px;
+//   #color-heading-three{
+//     margin-top: 19px;
+//   }
+//   #color-2nd-heading{
+//     margin-top: 20px;
+
+//   }
+//   .top-main-container{
+//     height: 623px;
+//     margin-top: 10px;
+//     margin-left: 0%;
+//     padding: 1px;
+//     width: 1280px;
+
+//   }
+//   .imagelogo{
+//     border-radius: 74%;
+//   }
+//   #top-header {
+//     display: inline;
+//     margin-left: 20px; 
+//     margin-right: 20px;
+//     gap: 20px;
+//   }
+//   .side-heading {
+//     display: none;
+//   }
+//   .side-heading-two{
+//     display:inline-block;
+//     margin-left:20% ;
+//     margin-right: 20%;
+    
+    
+//   }
+//   .buttons {
+
+//     display: none;
+    
+//   }
+//   .grid-container {
+//     display: flex;
+//     align-items: center;
+//     margin: 40px;
+//   }
+//   .images{
+//     display: none;
+//   }
+//   .grid-container{
+//     overflow-x: auto;
+//     scroll-snap-type: x mandatory;
+//     padding : 20px 0;
+//   }
+//   .grid-slider{
+//     display: flex;
+//     flex-wrap: nowrap;
+//   }
+//   .grid-item{
+//     flex:0 0 auto;
+//     width: 100%;
+//     padding: 0 10px
+//   }
+
+
+// }
+@media screen and (min-width:762px)  and (max-width: 1440px) {
+  .adjustment-first{
+    margin-top: -19px;
   }
-  #color-2nd-heading{
+  #adjustment-color{
     margin-top: 20px;
+  }
+  #first-sub-heading{
+    margin-bottom: 5px;
 
   }
   .top-main-container{
-    height: 623px;
-    margin-top: 10px;
-    margin-left: 0%;
-    padding: 1px;
-    width: 1280px;
-
-  }
-  .imagelogo{
-    border-radius: 74%;
-  }
-  #top-header {
-    display: inline;
-    margin-left: 20px; 
-    margin-right: 20px;
-    gap: 20px;
-  }
-  .side-heading {
-    display: none;
-  }
-  .side-heading-two{
-    display:inline-block;
-    margin-left:20% ;
-    margin-right: 20%;
-    
-    
-  }
-  .buttons {
-
-    display: none;
-    
-  }
-  .grid-container {
-    display: flex;
-    align-items: center;
-    margin: 40px;
-  }
-  .images{
-    display: none;
-  }
-  .grid-container{
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding : 20px 0;
-  }
-  .grid-slider{
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .grid-item{
-    flex:0 0 auto;
-    width: 100%;
-    padding: 0 10px
-  }
-
-
-}
-@media screen and (min-width:1029px)  and (max-width: 1440px) {
-  .top-main-container{
-    height: 623px;
+    height:1041px;
         margin-top: 10px;
         margin-left: 0%;
         padding: 1px;
+        width: 1365px !important;
 
   }
   .imagelogo{
     border-radius: 74%;
   }
-  #top-header {
-    display: inline;
-    margin-left: 20px; 
-    margin-right: 20px;
-    gap: 20px;
-  }
+  // #top-header {
+  //   display: inline;
+  //   margin-left: 20px; 
+  //   margin-right: 20px;
+  //   gap: 20px;
+  // }
   #button-end-2ndlast{
     margin-top: 5px;
   }
@@ -379,23 +391,35 @@ margin-top: 18px;
   }
   .side-heading-two{
     display:inline-block;
-    margin-left:20% ;
-    margin-right: 20%;
+    margin-left:10% ;
+    // margin-right: 20%;
+    margin-bottom: 5px;
     
     
   }
   .buttons {
 
-    display: none;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 6px;
     
+  }
+  .button-top{
+    width: 240px;
   }
   .grid-container {
     display: flex;
     align-items: center;
     margin: 40px;
+    
   }
   .images{
-    display: none;
+    // display: none;
+    height: 426px;
+    width: 426px;
+   
   }
   .grid-container{
     overflow-x: auto;
@@ -407,6 +431,7 @@ margin-top: 18px;
     flex-wrap: nowrap;
   }
   .grid-item{
+    overflow: hidden;
     flex:0 0 auto;
     width: 100%;
     padding: 18px 10px

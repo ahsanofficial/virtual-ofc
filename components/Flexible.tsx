@@ -55,13 +55,13 @@ const Flexible = () => {
                     <div className='grid-slider'>
                     <div className="grid-item">
                         <Image className='images' src={firstbox} alt="Image 1" />
-                        <p className='sub-heading'>Private offices</p>
-                        <p className='sub-heading'>A range of ready-to-use, fully equipped
+                        <p className='sub-heading' >Private offices</p>
+                        <p className='sub-heading' >A range of ready-to-use, fully equipped
                             offices with everything you need to get
-                            started.</p><br></br>
-                        <p className='sub-heading'>  <Image className='calander-image' src={calenderone} alt="Image 1" /> By month or year</p>
-                        <p className='sub-heading' id='sub-heading-2nd'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
-                        <p className='color-heading'>From $ 89 per person per month</p>
+                            started.</p><br/>
+                        <div className='adjustment-first'><p className='sub-heading'>  <Image className='calander-image' src={calenderone} alt="Image 1" /> By month or year</p>
+                        <p className='sub-heading' id='sub-heading-2nd'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br/></div>
+                        <p className='color-heading'  id="adjustment-color">From $ 89 per person per month</p>
                         <button className='button-end' id="button-first-two">Get a quote</button> <button className='button-end-2nd'>Learn more</button>
                     </div>
 
