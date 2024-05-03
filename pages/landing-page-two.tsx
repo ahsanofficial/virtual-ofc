@@ -3,6 +3,8 @@ import GetYourVirtualOffice from "../components/landing-page-two/GetYourVirtualO
 import TrustedCompanies from "../components/landing-page-two/TrustedCompanies";
 import AccessibleAffordableAdaptable from "../components/landing-page-two/AccessibleAffordableAdaptable";
 import Faq from "../components/landing-page-two/Faq";
+import Carousel from "../components/landing-page-two/client-testimonial/Carousel";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
         <NextNProgress color="#ffa229" height={50} />
         <GetYourVirtualOffice />
         <AccessibleAffordableAdaptable/>
+        <Carousel/>
         <TrustedCompanies/>
         <Faq/>
       </>

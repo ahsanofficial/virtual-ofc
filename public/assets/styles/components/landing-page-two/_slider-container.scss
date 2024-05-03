@@ -1,0 +1,149 @@
+.slider-container{
+    .container {
+        padding: 88px 0 68px 0;
+        @include tablet{
+            padding: 30px 0 64px 0;
+
+        }
+       h2{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39.01px;
+        text-align: center;
+        text-transform:uppercase;
+        padding-bottom: 72px;
+        @include tablet{
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            padding-bottom: 30px;
+
+        }
+       }
+       .details-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+        @include tablet{
+            flex-direction: column;
+            gap:18px;
+         
+        }
+        .img{
+            width: 204px;
+            height: 179px;
+
+
+            @include tablet{
+                width: 204px;
+                height: 179px;
+            }
+           
+        }
+        .para{
+            background-image: url('../../../../../assets/icons//landing-page-two/carousel/water_mark.png');
+            background-repeat: no-repeat;
+            background-size:160px;
+            background-position: center 40px !important;
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @include tablet{
+                background-size:100px;
+                width: 264px;
+                align-items: center;
+            }
+            p{
+                width: 548px;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.5px;
+                text-align: left;
+                @include tablet{
+                    width: 90%;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19.5px;
+                        text-align: left;
+                }
+            }
+
+            // @include tablet{
+      
+               
+
+            // }
+            .writer{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .line{
+                    height: 2px;
+                    width: 10px;
+                    background-color: black;
+                    margin-bottom: 10px;
+                    @include tablet{
+                        margin-bottom: 25px;
+                    }
+                }
+                h5{
+                     color: #000000;
+                     font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    text-align: left;
+    
+                    @include tablet{
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 19.5px;
+                        text-align: left;
+                        width: 162px;
+        
+                    }
+                }
+            }
+        }
+        
+       
+       }
+       .left-arrow{
+         margin-left: -32px;
+         z-index: 10;
+         @include tablet{
+            margin-left:60px;
+            margin-top: -120px;
+         }
+       }
+       .right-arrow{
+        z-index: 10;
+        @include tablet{
+            margin-right:60px;
+            margin-top: -120px;
+        }
+       }
+        .mobile_arrow{
+        display: none;
+     }
+       @include tablet{
+         .mobile_arrow{
+            display: block;
+            margin-top: 30px;
+         }
+         .desktop_arrow{
+            display: none;
+         }
+       }
+        
+    }
+}
