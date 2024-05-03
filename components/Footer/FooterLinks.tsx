@@ -164,7 +164,6 @@ export const FooterLinks = () => {
                     <h3>Feel free to contact with us</h3>        
                     <ConnectwithUs />
                 </div>
-
             </div>
         </div>
     </div>
