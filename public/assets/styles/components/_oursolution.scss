@@ -1,139 +1,168 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
-}  
+}
 
 .icon-subcontainer {
   padding-top: 22px;
   width: 290px;
-  height :204px;
+  height: 204px;
   text-align: center;
   display: flex;
-  border: 2px solid rgba(226, 228,230, 1);
+  border: 2px solid rgba(226, 228, 230, 1);
   border-radius: 16px;
   // box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
- 
-  
 }
-.icon-container{
-  padding:5px;
+.icon-container {
+  padding: 5px;
   gap: 40px;
 }
 
 .title-icon {
   font-size: 24px;
-  font-family:Inter, sans-serif;
+  font-family: Inter, sans-serif;
   display: flex;
   align-items: flex-start;
   margin-bottom: 10px;
   text-align: left;
-  color: #2962FF;
-  
-
-  
-
+  color: #2962ff;
 }
 
-
-.underline{
-  border:1px solid black;
+.underline {
+  border: 1px solid black;
   width: 110px;
-  margin-bottom: 10px; 
-  margin-top: -8px; 
-  
+  margin-bottom: 10px;
+  margin-top: -8px;
 }
 
 .description-icon {
   font-size: 16px;
   text-align: left;
-  
 }
 
 .icon {
   font-size: 30px;
   color: green;
- 
 }
 
 .button-icon {
-
   color: white;
   // padding: 10px 20px;
   // margin-top: 20px;
   cursor: pointer;
   text-align: left;
 }
-.icon-main{
+.icon-main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(20px,auto);
-  
+  grid-auto-rows: minmax(20px, auto);
+
   overflow: hidden;
   margin-top: 35px;
   margin-left: 100px;
   margin-right: 100px;
   gap: 40px;
-  
-  
-  
- 
 }
 .image {
-  padding-top:30px;
+  padding-top: 30px;
 }
 
-
-
-
-
-@media screen and (max-width: 517px)  {
-
-
-  // .icon-subcontainer{
-    
-   
-  // }
+@media screen and (max-width: 400px) {
+  .icon-subcontainer {
+    width: 374px;
+    padding: 0;
+    margin: 0;
+  }
   .icon-main {
-      grid-template-columns: 1fr; 
-      width: 100%;
-      padding: 0;     
-      margin:28%;
-      
-     
+    grid-template-columns: 1fr;
+    width: 390px;
+    padding: 0;
+    margin: 28%;
   }
 }
-@media screen and (min-width: 517px)and (max-width:800px) {
 
- 
-   
+@media screen and (min-width: 400px) and (max-width: 517px) {
+  .icon-subcontainer {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+  }
   .icon-main {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0;
+    margin-left:45%;
+  }
+}
+@media screen and (min-width: 517px) and (max-width: 550px) {
+  .icon-subcontainer {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon-main {
+    grid-template-columns: 1fr;
+    width: 632px;
+    padding: 0;
+    margin-left: 33%;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 787px) {
+  .icon-subcontainer {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon-main {
+    grid-template-columns: 1fr;
     width: 460px;
-    padding: 0;     
-    margin-left:31%;
-    margin-right: 31%;
-
-}
-}
-
-@media screen and (min-width: 844px) and (max-width: 1145px)  {
-
-  .icon-subcontainer{
-    width: 328px;
-    margin-left: 6%;
-  }
-  .icon-main {
-      grid-template-columns: repeat(2, 1fr); 
-      
-      
+    padding: 0;
+    margin-left: 30%;
   }
 }
-@media screen and (min-width: 1145px) and (max-width: 1400px)  {
-  .icon-main {
-      grid-template-columns: repeat(3, 1fr); 
 
+@media screen and (min-width: 787px) and (max-width: 1028px) {
+  .icon-subcontainer {
+    width: 560px;
+    padding: 0;
+    margin: 0;
+  }
+  .icon-main {
+    display: grid;
+    margin-top: 35px;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0;
+    margin-left: 33%;
+  }
+}
+
+@media screen and (min-width: 1028px) and (max-width: 1145px) {
+  .icon-subcontainer {
+    width: 396px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon-main {
+    // grid-template-columns: repeat(2, 1fr);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(20px, auto);
+    overflow: hidden;
+    margin-top: 35px;
+    margin-left: 113px;
+    grid-gap: 36px;
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 1145px) and (max-width: 1400px) {
+  .icon-main {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -98,10 +98,7 @@
   background-color: green;
   color:white;
 }
-// .button-top:hover {
-//   background-color: green;
-//   color: white;
-// }
+
 #gird-item-last{
   background-color: #333333 !important;
   color: white;
@@ -117,14 +114,15 @@
   margin-left: 20px;
   margin-top: 20px;
 }
-/* Styles for screens up to 468px */
+
 .side-heading-two{
   display: flex;
   justify-content: center;
-  display: none;
+  display: none; 
 }
-input{
-  width: 300px;
+.imagelogo{
+  border-radius: 74% !important;
+  margin-left: -4px;
 }
 .price-heading{
   display: flex;
@@ -139,16 +137,91 @@ input{
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 1100px) {
 
-  
-  /* CSS rules for screens up to 468px */
+@media screen and (max-width: 420px){
+  #color-heading-three{
+    margin-top: 19px;
+  }
+  #color-2nd-heading{
+    margin-top: 20px;
 
+  }
+
+  .imagelogo{
+    border: 74%;
+  }
+   
+
+   .top-main-container{
+    width: 555px;
+    height: 669px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 6px;
+
+  }
+  #top-header {
+    display: inline;
+    margin-left: 20px; 
+    margin-right: 20px;
+    gap: 20px;
+  }
+  .side-heading {
+    display: none;
+  }
+  .side-heading-two{
+    display:inline-block;
+    margin-left:20% ;
+    margin-right: 20%;
+    
+  }
+  .buttons {
+    display: none;
+    
+  }
+  .grid-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+  .images{
+    display: none;
+  }
+  .grid-container{
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding : 20px 0;
+  }
+  .grid-slider{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .grid-item{
+    flex:0 0 auto;
+    width: 100%;
+    padding: 0 10px
+  }
+
+}
+
+@media screen and (min-width:421px) and (max-width:785px){
+  #color-heading-three{
+    margin-top: 19px;
+  }
+  #color-2nd-heading{
+    margin-top: 20px;
+
+  }
   .top-main-container{
-    margin-left: 13%;
-    margin-right: 2%;
-    padding: 0;
+    width: 815px;
+    height: 669px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 6px;
 
+  }
+  .imagelogo{
+    border-radius: 74%;
   }
   #top-header {
     display: inline;
@@ -191,6 +264,152 @@ input{
     flex:0 0 auto;
     width: 100%;
     padding: 0 10px
+  }
+
+}
+
+
+
+
+@media screen and (min-width:785px)  and (max-width: 1029px) {
+
+
+  #color-heading-three{
+    margin-top: 19px;
+  }
+  #color-2nd-heading{
+    margin-top: 20px;
+
+  }
+  .top-main-container{
+    height: 623px;
+    margin-top: 10px;
+    margin-left: 0%;
+    padding: 1px;
+    width: 1280px;
+
+  }
+  .imagelogo{
+    border-radius: 74%;
+  }
+  #top-header {
+    display: inline;
+    margin-left: 20px; 
+    margin-right: 20px;
+    gap: 20px;
+  }
+  .side-heading {
+    display: none;
+  }
+  .side-heading-two{
+    display:inline-block;
+    margin-left:20% ;
+    margin-right: 20%;
+    
+    
+  }
+  .buttons {
+
+    display: none;
+    
+  }
+  .grid-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+  .images{
+    display: none;
+  }
+  .grid-container{
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding : 20px 0;
+  }
+  .grid-slider{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .grid-item{
+    flex:0 0 auto;
+    width: 100%;
+    padding: 0 10px
+  }
+
+
+}
+@media screen and (min-width:1029px)  and (max-width: 1440px) {
+  .top-main-container{
+    height: 623px;
+        margin-top: 10px;
+        margin-left: 0%;
+        padding: 1px;
+
+  }
+  .imagelogo{
+    border-radius: 74%;
+  }
+  #top-header {
+    display: inline;
+    margin-left: 20px; 
+    margin-right: 20px;
+    gap: 20px;
+  }
+  #button-end-2ndlast{
+    margin-top: 5px;
+  }
+  #button-first{
+    margin-top: 5px;
+  }
+  #button-two{
+    margin-top:8px;
+
+  }
+  #color-heading-three{
+margin-top: 18px;
+  }
+  #color-2nd-heading{
+    margin-top: 17px;
+  }
+  .button-three{
+    margin-top: 9px;
+  }
+  .side-heading {
+    display: none;
+  }
+  .side-heading-two{
+    display:inline-block;
+    margin-left:20% ;
+    margin-right: 20%;
+    
+    
+  }
+  .buttons {
+
+    display: none;
+    
+  }
+  .grid-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+  .images{
+    display: none;
+  }
+  .grid-container{
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding : 20px 0;
+  }
+  .grid-slider{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .grid-item{
+    flex:0 0 auto;
+    width: 100%;
+    padding: 18px 10px
   }
 
 }

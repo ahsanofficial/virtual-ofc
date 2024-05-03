@@ -22,19 +22,27 @@ const Flexible = () => {
                 {/* Heading */}
                 <div className='top-header'>
                 <h2 className='top-heading' id='top-heading'>Flexible workspace designed around your needs</h2>
-                <div className='side-heading'><div> <Image src={india} alt="Image 1" /> Prices for India</div>   
-                <div> <Image src={search} alt="Image 1" /> <input type="text"  placeholder='Search for a city or area to refine pricing'/>
+                <div className='side-heading'><div> <Image  className='imagelogo' src={india} alt="Image 1" /> Prices for India</div>   
+                <div> <Image src={search} alt="Image 1" /> <a href="">Search for a city or area to refine pricing </a>
                 </div>
                 </div>
                
                 </div>
                 <div className='price-heading'>
                 <div className='side-heading-two'><div> <Image src={india} alt="Image 1" /> Prices for India</div>   
-                <div className='flexing-div'> <Image src={search} alt="Image 1" /> <input type="text"  placeholder='Search for a city or area to refine pricing'/>
+                <div className='flexing-div'> <Image   className='imagelogo' src={search} alt="Image 1" /> <a href="">Search for a city or area to refine pricing </a>
                 </div>
                 </div>
                 </div>
+
+
+
+
+
+
+
                 {/* Buttons */}
+
                 <div className="buttons">
                     <button id="button-top-first" className='button-top' >Office space</button>
                     <button className='button-top'>Coworking</button>
@@ -52,9 +60,9 @@ const Flexible = () => {
                             offices with everything you need to get
                             started.</p><br></br>
                         <p className='sub-heading'>  <Image className='calander-image' src={calenderone} alt="Image 1" /> By month or year</p>
-                        <p className='sub-heading'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
+                        <p className='sub-heading' id='sub-heading-2nd'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
                         <p className='color-heading'>From $ 89 per person per month</p>
-                        <button className='button-end'>Get a quote</button> <button className='button-end-2nd'>Learn more</button>
+                        <button className='button-end' id="button-first-two">Get a quote</button> <button className='button-end-2nd'>Learn more</button>
                     </div>
 
                     {/* Div 2 */}
@@ -65,9 +73,9 @@ const Flexible = () => {
                             enough. Customise all aspects of your
                             space, including furniture and branding.</p>
                         <p className='sub-heading'>  <Image src={disc} alt="Image 1"  /> By month or year + customised</p>
-                        <p className='sub-heading'> <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
-                        <p className='color-heading'>From $ 89 per person per month</p>
-                        <button className='button-end'>Get a quote</button> <button  className='button-end-2nd'>Learn more</button>
+                        <p className='sub-heading' > <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
+                        <p className='color-heading' id="color-2nd-heading">From $ 89 per person per month</p>
+                        <button className='button-end' id="button-two" >Get a quote</button> <button  className='button-end-2nd'>Learn more</button>
                     </div>
 
                     {/* Div 3 */}
@@ -81,8 +89,8 @@ const Flexible = () => {
                         </p>
                         <p className='sub-heading'>  <Image src={clock} alt="Image 1" /> By the hour or day</p>
                         <p className='sub-heading'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br/>
-                        <p className='color-heading'>From $ 25 per day</p>
-                        <button  className='button-end' id="button-buy-now">Buy Now</button > <button  className='button-end-2nd'>Learn more</button>
+                        <p className='color-heading' id='color-heading-three'>From $ 25 per day</p>
+                        <button  className='button-end button-three' id="button-buy-now button-end-2ndlast">Buy Now</button > <button  className='button-end-2nd'>Learn more</button>
                     </div>
 
                     {/* Div 4 */}
