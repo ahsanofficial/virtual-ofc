@@ -1,9 +1,9 @@
 .hero-container {
   background-image: url("../../../../assets/HomePage/hero.svg");
-  background-repeat: no-repeat;
   object-fit: cover;
   width: 100vw;
   height: 765px;
+  font-family: Assistant;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -38,13 +38,14 @@
         align-items: center;
         justify-content: center;
         gap: 16px;
-        padding-top: 12px;
+        margin: 10px;
       div {
         position: relative;
         input {
           width: 587.5px;
           height: 56.59px;
-          border: none;
+          border: 1px solid #D9DBDD;
+          border-radius: 4px;
           outline: none;
           padding-left: 16px;
         }
@@ -74,7 +75,7 @@
     }
   }
   .form-min {
-    width: 328px;
+    width: 70%;
     height: 114px;
     border-radius: 9px;
     border: none;
@@ -84,23 +85,26 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
         label{
             font-size: 16px;
             font-weight: 400;
             line-height: 16px;
             color: #393939;
-            padding: 7px;
-            justify-content: flex-start;
-            margin-left: -169px;
+            padding: 10px;
+            align-self: flex-start;
+            padding-left: 20px;
         }
       div {
         position: relative;
+        width: 93%;
         input {
-          width: 299px;
+          width: 100%;
           height: 39px;
-          border: 1px solid blue;
+          border: 1px solid #D9DBDD;
+          border-radius: 4px;
           outline: none;
-          padding-left: 16px;
+          padding-left: 40px;
         }
         .search {
           position: absolute;
@@ -116,8 +120,8 @@
         font-weight: 400;
         line-height: 12.14px;
         padding: 10px;
-        justify-content: flex-end;
-        margin-right: -190px;
+        align-self: flex-end;
+      padding-right: 20px;
         }
     }
   }
@@ -166,7 +170,10 @@
 
 .Hero {
   @media screen and (max-width: 990px) {
+    justify-content: flex-start;
+    padding-top: 4rem;
     .cities {
+      width: 55%;
       .text {
         text-align: center;
       }
@@ -174,6 +181,49 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
       }
+    }
+  }
+}
+
+.Hero{
+  @media screen and (max-width: 755px) {
+    .heading {
+      p {
+        width: 44%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.Hero {
+  @media screen and (max-width: 480px) {
+    padding-top: 2rem;
+    .form-min{
+      div{
+        div{
+          width: 88%;
+        }
+      }
+    }
+    .cities {
+      .grid {
+        div{
+          div{
+            width: 60.59px;
+            height: 62.59px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Hero {
+  @media screen and (max-width: 455px) {
+    height: 840px;
+    .cities{
+      width: 64%;
     }
   }
 }

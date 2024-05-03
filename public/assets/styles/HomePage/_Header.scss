@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: Assistant;
     width: 100vw;
     padding: 8px 100px;
     color: #393939;
@@ -107,11 +108,23 @@
 
 .Header{
     @media screen and (max-width: 990px){
-        .container{
-            gap: 5rem;
-        }
         .navigation-links, .enquire-button{
             display: none;
         }
+    }
+}
+
+.Header{
+    @media screen and (max-width: 580px){
+        padding: 8px 40px;
+        div{
+            gap: 1rem;
+        }
+    }
+}
+
+.Header{
+    @media screen and (max-width: 382px){
+        padding: 8px 20px;
     }
 }
