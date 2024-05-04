@@ -7,6 +7,10 @@
             padding: 38.45px 66px 63px 89px;
             border-radius: 30px;
             margin-top: 100px;
+
+            @include tablet{
+                padding: 38.45px 15.33px 63px 15.33px;
+            }
             h2{
                 font-family: Raleway;
                 font-size: 32px;

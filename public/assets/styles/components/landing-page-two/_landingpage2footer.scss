@@ -12,6 +12,10 @@
         display: flex;
         flex-direction: column;
         gap: 3.875rem;
+
+        @include tablet{
+            padding: 4.5rem 0rem 3.875rem 0rem;
+        }
         
         .logo{
             width: 100%;
@@ -33,8 +37,11 @@
                 display: flex;
                 flex-direction: column;
                 gap: 2.75rem;
-
                 width: min-content;
+
+                @include tablet{
+                    width: 100%;
+                }
 
                 div{
                     display: flex;
@@ -47,6 +54,9 @@
                         text-align: left;
 
                         text-wrap: nowrap;
+                        @include tablet{
+                            text-wrap: wrap;
+                        }
                     }
 
                     p{

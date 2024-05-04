@@ -19,8 +19,8 @@ export default function Home() {
         <Hero />
         <GetYourVirtualOffice />
         <AccessibleAffordableAdaptable/>
-        <Carousel/>
         <TrustedCompanies/>
+        <Carousel clientTestmonailColor={'heading-color'}/>
         <Faq/>
         <Footer/>
       </>

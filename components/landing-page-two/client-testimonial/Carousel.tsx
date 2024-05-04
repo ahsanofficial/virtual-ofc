@@ -9,7 +9,12 @@ import right_plain_arrow from "../../../assets/icons/landing-page-two/carousel/r
 import ClientComponent from "./ClientComponent";
 import Image from "next/image";
 
-function Carousel() {
+
+
+interface ColorProps {
+  clientTestmonailColor?: string;
+}
+const Carousel: React.FC<ColorProps> = ({ clientTestmonailColor })=> {
   const CustomPrevArrow: React.FC<CustomArrowProps> = ({
     className,
     onClick,
@@ -61,19 +66,19 @@ function Carousel() {
       <div className="container">
         <Slider {...settings}>
           <div>
-            <ClientComponent />
+            <ClientComponent clientTestmonailColor={clientTestmonailColor}/>
           </div>
           <div>
-            <ClientComponent />
+            <ClientComponent clientTestmonailColor={clientTestmonailColor}/>
           </div>
           <div>
-            <ClientComponent />
+            <ClientComponent clientTestmonailColor={clientTestmonailColor}/>
           </div>
           <div>
-            <ClientComponent />
+            <ClientComponent clientTestmonailColor={clientTestmonailColor}/>
           </div>
           <div>
-            <ClientComponent />
+            <ClientComponent clientTestmonailColor={clientTestmonailColor}/>
           </div>
         </Slider>
       </div>
