@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import greenYes from "../../assets/icons/landing-page-two/green-yes.svg";
+import ZohoFormService from "../child_component/ZohoformService";
 
 const Hero = () => {
   return (
@@ -18,7 +19,10 @@ const Hero = () => {
             and empower your business!
           </p>
         </div>
-        <div className="form-div"></div>
+        {/* <div className="form-div"></div> */}
+        <div className="form-div">
+          <ZohoFormService service={'appointment-of-managing'} />
+        </div>
       </div>
       <div className="hero-bottom">
         <div>
