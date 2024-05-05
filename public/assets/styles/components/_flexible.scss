@@ -69,8 +69,15 @@
           text-decoration-color: #393939;
           width: 250px;
           font-size: 14px;
+        
+        @include mobile{
+          width: fit-content;
+          @include mobile{
+            width: fit-content;
+            animation: moveRightToLeft 5s linear infinite;
+          }
         }
-
+      }
       }
     
     }
@@ -303,6 +310,15 @@
       }
     }
   }
+
+@keyframes moveRightToLeft {
+  from {
+    text-indent: 100%; /* Start from the right edge */
+  }
+  to {
+    text-indent: -100%; /* Move to the left edge */
+  }
+}
 
 }
 
