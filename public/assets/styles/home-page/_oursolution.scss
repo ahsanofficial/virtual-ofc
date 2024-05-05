@@ -7,21 +7,25 @@
     }
     .container-new{
         max-width: 1400px;
+        width: 99%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300.16px, 1fr));
         row-gap: 28px;
         column-gap: 28px;
       
-        @include tablet{
+        @include mobile{
             row-gap: 10.36;
             column-gap: 17.48px;
+            grid-template-columns:1fr;
+            width: 100%;
             margin: auto;
         }
         .card-item{
-            border: 2px solid #EEF0F2;
+            border: 2px solid #eef0f2e1;
             cursor: pointer;
             max-width:372.16px;
+            min-height: 204px;
             border-radius: 16px;
             display: flex;
             justify-content: center;
@@ -29,11 +33,11 @@
             gap: 27.51px;
 
             @include tablet{
-                width: 90%;
+                width: 97%;
                 border-radius: 15.44px;
-                border: 1.93px solid #EEF0F2;
+                border: 1.93px solid #dcdddf;
                 margin: auto;
-                padding: 17px 0;
+                min-height: 147px;
                 gap: 8%;
             }
            
@@ -47,9 +51,14 @@
                     gap: 7px;
                 }
                 h4{
-                    // width: 174px;
                     gap: 0px;
                     color: #2962FF;
+                    font-family: Assistant;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.5px;
+                    text-align: left;
 
                     @include tablet{
                         font-family: Assistant;
@@ -89,6 +98,7 @@
                     
                     @include tablet{
                         border-bottom: 1px solid #928d8d;
+                        width: 68%;
                         
                     }
                 }

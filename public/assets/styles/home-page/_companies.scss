@@ -22,12 +22,14 @@
                 column-gap: 29px;
                 padding: 48px 0;
                 margin: auto;
+                margin-right: 0;
             }
 
             img{
                 width: 160px;
                 @include mobile{
                     width: 86.32px;
+                    margin: auto;
                 }
                 @include tablet{
                     width: 95.32px;
