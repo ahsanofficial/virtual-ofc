@@ -15,26 +15,55 @@ type CardContent = {
         icon:any,
         text:string
     }[],
+}
 
+type FlexibleWorkspaceCardProps = {
+    data: CardContent;
+    active:string;
+    cardClick: (id:string) => void;
 }
 
 
-export const FlexibleWorkspaceCard = ({data}:{data: CardContent}) => {
+export const FlexibleWorkspaceCard = ({data,active,cardClick}:FlexibleWorkspaceCardProps) => {
+    const {id,title,description,image,price,button1,button2,button1link,button2link,points} = data;
+
   return (
-    <div className="grid-item">
-        <div>
-            <Image className='cardimage' src={data.image} alt="Image 1" />
+    <div className={`grid-item ${active === id ? "active": "inactive"}`} onClick={() => cardClick(id)}>
+        <div className='image-container'>
+            <Image className='cardimage' src={image} alt="card-image" />
         </div>
-        <h4 className='sub-heading'>{data.title}</h4>
-        <p className='sub-heading'>{data.description}</p>
-        {
-            data.points.map((point, index) => (
-                <p className='sub-heading' key={index}> 
-                <Image className='calander-image' src={point.icon} alt="Image 1" /> {point.text}</p>
-            ))
-        }
-        <p className='color-heading'>{data.price}</p>
-        <button className='button-end'>{data.button1}</button> <button className='button-end-2nd'>{data.button2}</button>
+        <div className='grid-data'>
+            <div className='grid-data-desc'>
+                <h4>{title}</h4>
+                <p className='desc'>{description}</p>
+                {
+                    points.map((point, index) => (
+                        <div className='points' key={index}> 
+                            <Image src={point.icon} alt="icon" width={20} height={20}/> 
+                            <p>{point.text}</p>
+                        </div>
+                    ))
+                }
+            </div>
+
+
+            <div className='grid-data-cta'>
+                {
+                    price && <p className='color-heading'>{price}</p>
+                }
+                <div className='buttons'>
+                    <button className='primary'>
+                        <a href={button1link}>{button1}</a>
+                    </button>
+                    {
+                        button2 &&
+                        <button className='secondary'>
+                            <a href={button2link}>{button2}</a>
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
     </div>
   )
 }

@@ -146,6 +146,10 @@ const cardsContent = [
 const Flexible = () => {
 
     const [activeBtn, setActiveBtn] = useState<string>('button1');
+    const [activeCard, setActiveCard] = useState<string>('card1');
+    const cardClickHandler = (id: string) => {
+        setActiveCard(id);
+    }
 
     const changeActiveBtn = (id: string) => {
         setActiveBtn(id);
@@ -192,82 +196,11 @@ const Flexible = () => {
                 <div className="gridslider-container">
                     {/* Div 1 */}
                     <div className='grid-slider'>
-
                         {
                             cardsContent.map((cardContent) => (
-                                <FlexibleWorkspaceCard key={cardContent.id} data={cardContent} />
+                                <FlexibleWorkspaceCard key={cardContent.id} data={cardContent} active={activeCard} cardClick={cardClickHandler}/>
                             ))
                         }
-
-
-
-                        
-
-
-                        {/* <div className="grid-item">
-                            <Image className='images' src={firstbox} alt="Image 1" />
-                            <p className='sub-heading'>Private offices</p>
-                            <p className='sub-heading'>A range of ready-to-use, fully equipped
-                                offices with everything you need to get
-                                started.</p><br></br>
-                            <p className='sub-heading'>  <Image className='calander-image' src={calenderone} alt="Image 1" /> By month or year</p>
-                            <p className='sub-heading'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br />
-                            <p className='color-heading'>From $ 89 per person per month</p>
-                            <button className='button-end'>Get a quote</button> <button className='button-end-2nd'>Learn more</button>
-                        </div> */}
-
-                        {/* Div 2 */}
-                        {/* <div className="grid-item">
-                            <Image className='images' src={secondbox} alt="Image 2" />
-                            <p className='sub-heading'>Custom Offices</p>
-                            <p className='sub-heading'>When off-the-shelf simply isn't
-                                enough. Customise all aspects of your
-                                space, including furniture and branding.</p>
-                            <p className='sub-heading'>  <Image src={disc} alt="Image 1" /> By month or year + customised</p>
-                            <p className='sub-heading'> <Image src={person} alt="Image 1" /> Teams of any size</p><br />
-                            <p className='color-heading'>From $ 89 per person per month</p>
-                            <button className='button-end'>Get a quote</button> <button className='button-end-2nd'>Learn more</button>
-                        </div> */}
-
-                        {/* Div 3 */}
-                        {/* <div className="grid-item">
-                            <Image className='images' src={thirdbox} alt="Image 3" />
-                            <p className='sub-heading'>Day Offices</p>
-                            <p className='sub-heading'>
-                                A professional on-demand office
-                                space. Perfect when you need to get
-                                your head down and do your best work.
-                            </p>
-                            <p className='sub-heading'>  <Image src={clock} alt="Image 1" /> By the hour or day</p>
-                            <p className='sub-heading'>  <Image src={person} alt="Image 1" /> Teams of any size</p><br />
-                            <p className='color-heading'>From $ 25 per day</p>
-                            <button className='button-end' id="button-buy-now">Buy Now</button > <button className='button-end-2nd'>Learn more</button>
-                        </div> */}
-
-                        {/* Div 4 */}
-                        {/* <div className="grid-item">
-                            <Image className='images' src={forthbox} alt="Image 4" />
-                            <p className='sub-heading'>Office membership</p>
-                            <p className='sub-heading'>Flexible access to Day Offices where
-                                and when you choose, at thousands of
-                                locations worldwide.</p> <br />
-                            <p className='sub-heading'>  <Image src={calenderone} alt="Image 1" /> 5, 10 or unlimited days per month</p><br /><br />
-                            <p className='color-heading'>From $ 225 per month</p>
-                            <button className='button-end ' id='button-end-2ndlast'>Buy Now</button> <button className='button-end-2nd'>Learn more</button>
-
-                        </div> */}
-
-                        {/* Div 5 */}
-                        {/* <div className="grid-item" id="gird-item-last">
-                            <Image className='images' src={fifthbox} alt="Image 5" />
-                            <p className='sub-heading'>Need a helping hand?</p>
-                            <p className='sub-heading'>Arrange a 1:1 call with a professional advisor.</p><br />
-                            <p className='sub-heading' > <Image src={whiteperson} alt="Image 1" /><span className='text-tags'>Agents available worldwide</span> </p>
-                            <p className='sub-heading'> <Image src={whiteperson} alt="Image 1" /> Discuss different options</p>
-                            <p className='sub-heading'> <Image src={whiteperson} alt="Image 1" /> Receive a personalised quote</p>
-                            <p className='sub-heading'> <Image src={whiteperson} alt="Image 1" /> Sign up and get started</p>
-                            <button className='button-end-last'>Talk to an expert</button>
-                        </div> */}
                     </div>
                 </div>
             </div>
