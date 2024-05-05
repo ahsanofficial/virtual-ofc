@@ -20,8 +20,14 @@
   }
   .heading {
     color: #ffffff;
-    text-align: center;
     margin: 56px auto;
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+  
+
     p {
       font-size: 20px;
       line-height: 24px;
@@ -142,6 +148,7 @@
       font-size: 16px;
       font-weight: 700;
       line-height: 16px;
+      margin-left: 4.5%;
       color: #ffffff;
       margin-bottom: 24px;
     }
@@ -199,9 +206,13 @@
       }
     }
     .heading{
+      
       p{
         font-size: 18px;
         line-height: 24px;
+
+        margin-bottom: 18px;
+      
       }
       h1{
         font-size: 36px;
@@ -214,8 +225,13 @@
 .Hero{
   @media screen and (max-width: 755px) {
     .heading {
-      p {
-        width: 44%;
+      p{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 18px;
+      }
+      h1 {
+        width: 100%;
         margin: auto;
       }
     }
@@ -247,7 +263,7 @@
 
 .Hero {
   @media screen and (max-width: 455px) {
-    height: 840px;
+    height: fit-content;
     .cities{
       width: 100%;
 

@@ -4,7 +4,7 @@ import why_opt_launch from "../../assets/images/why_opt_launch.png"
 
 const ClientServedCard = () => {
   return (
-    <div id="ClientServedCard" >
+    <div id="ClientServedCard"  className="first-why-opt-whole-component">
        <div className="image-container">
             <Image
                 alt="ClientServedCard"
