@@ -48,7 +48,7 @@ const UseVirtualAddress = () => {
         <div className="container-virtual-office">
           <div>
           {useVirtualAddressItems.map((item, index) => (
-            <div className="list-virtual-addres">
+            <div className="list-virtual-addres" key={index}>
               <div>
                 <Image src={item.icons} className="icons" alt={item.title}  loading="lazy" />
                 
