@@ -14,8 +14,9 @@ const Header = () => {
         alt="Register Karo Logo"
         objectFit="cover"
         objectPosition="center"
-        height={40}
-        width={225}
+        className="logo-image"
+        height={88.54}
+        width={123.72}
       />
       <nav className="navigation-links">
         <ul>
