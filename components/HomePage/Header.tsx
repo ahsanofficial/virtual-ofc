@@ -4,9 +4,46 @@ import logo from "../../assets/HomePage/logo.svg";
 import downArrow from "../../assets/HomePage/down-arrow.svg";
 import phone from "../../assets/HomePage/phone.svg";
 import user from "../../assets/HomePage/user.svg";
+import Link from "next/link";
 
 const Header = () => {
   const [isopen, setIsopen] = useState(false);
+  const links = [
+    {
+      name: "Workspace & Services",
+      link: "/",
+      dropdownImg: <Image src={downArrow} alt="Down Arrow" />,
+      submenu: true,
+      sublinks: [
+        {
+          head: "Business Registration",
+          sublink: [
+            { name: "Private Limited Company Registration", link: "/" },
+            { name: "Public Limited Comapany Registration", link: "/" },
+            { name: "LLP Registration", link: "/" },
+          ],
+        },
+      ],
+    },
+    { name: "Get started", link: "/", submenu: false },
+    {
+      name: "More",
+      link: "/",
+      dropdownImg: <Image src={downArrow} alt="Down Arrow" />,
+      submenu: true,
+      sublinks: [
+        {
+          head: "Business Registration",
+          sublink: [
+            { name: "Private Limited Company Registration", link: "/" },
+            { name: "Public Limited Comapany Registration", link: "/" },
+            { name: "LLP Registration", link: "/" },
+          ],
+        },
+      ],
+    },
+    { name: "Help", link: "/", submenu: false },
+  ];
   return (
     <header className="header-container Header">
       <Image
@@ -20,16 +57,25 @@ const Header = () => {
       />
       <nav className="navigation-links">
         <ul>
-          <li>
-            <span>Workspace & Services</span>
-            <Image src={downArrow} alt="Down Arrow" />
-          </li>
-          <li>Get started</li>
-          <li>
-            <span>More</span>
-            <Image src={downArrow} alt="Down Arrow" />
-          </li>
-          <li>Help</li>
+          {links?.map((link, index) => (
+            <li key={index}>
+              <Link href={link.link}>{link.name}</Link>
+              {link.submenu && link.dropdownImg}
+              {link.sublinks?.map((sublinks, index) => (
+                <div className="sublinks" key={index}>
+                  <h1>{sublinks.head}</h1>
+                  <hr />
+                  <span>
+                    {sublinks.sublink.map((slink, index) => (
+                      <Link href={slink.link} key={index}>
+                        {slink.name}
+                      </Link>
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </li>
+          ))}
         </ul>
       </nav>
       <div>
@@ -63,16 +109,25 @@ const Header = () => {
         style={isopen ? { right: "0px" } : { right: "-100%" }}
       >
         <ul>
-          <li>
-            <span>Workspace&Services</span>
-            <Image src={downArrow} alt="Down Arrow" />
-          </li>
-          <li>Get started</li>
-          <li>
-            <span>More</span>
-            <Image src={downArrow} alt="Down Arrow" />
-          </li>
-          <li>Help</li>
+          {links?.map((link, index) => (
+            <li key={index}>
+              <Link href={link.link}>{link.name}</Link>
+              {link.submenu && link.dropdownImg}
+              {link.sublinks?.map((sublinks, index) => (
+                <div className="sublinks" key={index}>
+                  <h1>{sublinks.head}</h1>
+                  <hr />
+                  <span>
+                    {sublinks.sublink.map((slink, index) => (
+                      <Link href={slink.link} key={index}>
+                        {slink.name}
+                      </Link>
+                    ))}
+                  </span>
+                </div>
+              ))}
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
