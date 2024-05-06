@@ -9,12 +9,13 @@
         place-items: center;
         grid-template-columns: repeat(2, 1fr);
         margin: 25px 108px;
-        h1{
+        h2{
             color: #FFFFFF;
             font-size: 48px;
             font-weight: 800;
             line-height: 58.51px;
             letter-spacing: 0.2px;
+            text-align: center;
         }
         .form{
             width: 481px;

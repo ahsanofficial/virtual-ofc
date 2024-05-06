@@ -45,10 +45,11 @@ export const Footer = () => {
             <div className='map-container'>
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d438.4051373460798!2d77.0546507868693!3d28.47228495204313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19aaf14f6d8f%3A0x62c146a0de5775b4!2sPalm%20Court%2C%20Mehrauli%20Rd%2C%20Industrial%20Development%20Area%2C%20Sector%2016%2C%20Gurugram%2C%20Haryana%20122007!5e0!3m2!1sen!2sin!4v1714631514796!5m2!1sen!2sin"
-                    allowFullScreen={false}
+                    allowFullScreen={true}
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     className='map-iframe'
+                    
                 ></iframe>
             </div>
         </div>

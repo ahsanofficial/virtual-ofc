@@ -6,24 +6,24 @@ import plus from "../../assets/icons/cross.svg";
 
 const faqItems = [
     {
-        "question": "How can a virtual office benefit my business in India?",
-        "answer": "To register a company in Mauritius, you need to submit the required documents to the Registrar of Companies, including the company's memorandum and articles of association, proof of address, and identification documents for shareholders and directors."
+        "question": "How does a virtual office differ from a traditional office?",
+        "answer": "A virtual office provides essential business services, such as a prestigious address, mail handling, and receptionist support, without the need for a physical office space. It offers flexibility and cost savings compared to traditional office setups."
     },
     {
-        "question": "Can I legally register my business using a virtual office address in India?",
-        "answer": "There is no specific minimum capital requirement for company registration in Mauritius, except for certain types of business activities where minimum capital may be prescribed by law."
+        "question": "Can I use the virtual office address for legal purposes or business registration?",
+        "answer": "Yes, you can use our virtual office address for business registration, marketing materials, and legal correspondence. It provides a professional image for your business without the expense of leasing physical office space."
     },
     {
-        "question": "How will I receive my business mail and packages with a virtual office?",
-        "answer": "Yes, foreigners can register companies in Mauritius, subject to compliance with relevant laws and regulations. Foreigners may need to appoint a local resident director and engage the services of a local registered agent."
+        "question": "How do I receive my mail and packages with a virtual office?",
+        "answer": "We offer mail handling services as part of our virtual office package. You can choose to have your mail forwarded to your preferred address or pick it up from our location at your convenience. We also provide package acceptance and notification services."
     },
     {
-        "question": "Can I use a virtual office address for official correspondence and marketing materials?",
-        "answer": "Yes, certain business activities in Mauritius may require special permits or licenses from regulatory authorities, such as the Financial Services Commission (FSC) for financial services companies or the Board of Investment (BOI) for foreign investment projects."
+        "question": "Can I schedule meetings or use office space with a virtual office plan?",
+        "answer": "Yes, many of our virtual office plans include access to meeting rooms, coworking spaces, and business lounges on a pay-as-you-go basis. You can book these facilities online or through our customer service team."
     },
     {
-        "question": "Do virtual office services in India include call answering and forwarding?",
-        "answer": "Companies registered in Mauritius are required to comply with annual reporting and filing obligations, including the submission of annual returns, financial statements, and tax returns to the Registrar of Companies and the Mauritius Revenue Authority."
+        "question": "Is there a minimum contract length for virtual office services?",
+        "answer": "We offer flexible contract options to suit your needs. You can choose from month-to-month plans or longer-term contracts based on your preferences. There are no long-term commitments, allowing you to adjust your plan as your business evolves."
     },
 ]
 
