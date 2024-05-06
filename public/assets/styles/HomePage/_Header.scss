@@ -108,6 +108,10 @@
 
 .Header{
     @media screen and (max-width: 990px){
+        .logo-image{
+            width: 89px;
+            height: 64px;
+        }
         .navigation-links, .enquire-button{
             display: none;
         }

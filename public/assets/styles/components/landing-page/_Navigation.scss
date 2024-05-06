@@ -121,6 +121,10 @@
     @media screen and (max-width: 990px){
         background-color: #FFFFFF;
         color: #393939;
+        .logo-image{
+            width: 89px;
+            height: 64px;
+        }
         .navigation-links, .enquire-button{
             display: none;
         }
