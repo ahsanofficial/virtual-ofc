@@ -12,29 +12,28 @@ const GetYourVirtualOffice = () => {
     <div id="GetYourVirtualOffice" className="get-your-virtual-office">
       <div className="container ">
         <div className="heading">
-          <h2>Get Your Virtual Office Up and Running in <span>3 Easy Steps!</span></h2>
+          <h2>Set Up your Virtual Office Now in Just <span>3 Simple Steps!</span></h2>
           <p>Procedure to obtain Virtual office address.</p>
         </div>
         <div>
         <div className="details-section">
               <div className="all-details one">
                 <Image src={connect_with_regi} alt="icon" loading="lazy"/>
-                <h5>Connect With RegisterKaro</h5>
-                <p>Reach out to our friendly customer support team through chat, email, or phone. They'll guide you through the process.</p>
+                <h5>Explore Locations & Customize Filters</h5>
+                <p>Begin by selecting your desired location and refining your search with specific filters tailored to your preferences, such as amenities, pricing, or size requirements.</p>
               </div>
               <Image src={des_top_arrow} className="arrows top"  alt="arrow top"/>
               <div className="all-details two">
                 <Image src={give_essential_details} alt="icon" loading="lazy"/>
-                <h5>Give Essential Details & Documents</h5>
-                <p>Upload essential documents required for registration, following our clear and secure guidelines.</p>
+                <h5>Discover & Compare Ideal Coworking Spaces</h5>
+                <p>Browse through the search results to find the best coworking spaces that meet your criteria. Compare options based on features, location proximity, and user reviews to determine the most suitable choice for your needs.</p>
               </div>
               <Image src={des_down_arrow} className="arrows down" alt="arrow top"/>
               <div className="all-details three">
                 <Image src={get_your_virtual_office} alt="icon" loading="lazy"/>
-                <h5>Get Your Virtual Office Ready To Work</h5>
-                <p>Once your application is approved, your virtual office is activated instantly!</p>
+                <h5>Submit Your Enquiry and Secure Your Spot</h5>
+                <p>Once you've found the perfect coworking space, proceed to submit your inquiry. Provide necessary details and any additional requirements. This step finalizes your reservation process, securing your spot in the chosen coworking space.</p>
               </div>
-
         </div>
         </div>
       </div>

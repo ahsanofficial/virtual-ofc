@@ -108,7 +108,7 @@ export const FooterLinks = () => {
 
             {/* socials */}
             <div className='links'>
-                <Link href='/'><Image src={logo} layout="fit" height={40} alt="RegisterKaro"/></Link>
+                <Link href='/'><Image src={logo} layout="fit" height={90} alt="RegisterKaro"/></Link>
                 <div className='social-links'>
                     <a href="www.facebook.com"><Image src={facebook} width={16} height={16} alt="facebook" /></a>
                     <a href="www.instagram.com"><Image src={instagram} width={16} height={16} alt="instagram" /></a>

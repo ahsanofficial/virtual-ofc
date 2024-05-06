@@ -9,30 +9,30 @@ import watch from "../../assets/icons/landing-page/accessible-affordable-adaptab
 const listof_details = [
   {
     icon: ok_tick,
-    title: "Professional Image & Enhanced Credibility",
+    title: "Elevate Professionalism",
     details:
-      "Elevate your company's image and attract top talent with a professional virtual address for websites, business cards, and marketing materials.",
+      "With a prestigious business address and professional phone answering services, our virtual office solutions instantly enhance your business image, making a lasting impression on clients and partners.",
   },
 
   {
     icon: focus,
-    title: "Unmatched Work Flexibility",
+    title: "Expand Reach",
     details:
-      "Improve work-life balance by eliminating commutes and allowing flexible schedules.",
+      "Access new markets and opportunities effortlessly with virtual office locations in key cities and business districts, allowing you to establish a presence wherever your business needs to be.",
   },
 
   {
     icon: watch,
-    title: "Streamlined Business Operations",
+    title: "Enhance Flexibility",
     details:
-      "Access essential services like virtual assistants, answering services, and teleconferencing – all under one roof.",
+      "Enjoy the freedom to work from anywhere while still maintaining a professional presence. Our virtual office solutions offer flexible plans tailored to your specific needs, enabling you to scale up or down as your business evolves.",
   },
 
   {
     icon: light,
-    title: "Scalable & Cost-Effective Solution",
+    title: "Boost Productivity",
     details:
-      "Choose a virtual office plan that fits your needs and budget, with options for various locations and service levels.",
+      "Streamline operations and optimize efficiency with our suite of virtual office tools and services. From virtual meeting rooms to mail handling, we provide everything you need to run your business smoothly, allowing you to focus on what matters most.",
   },
 ];
 
@@ -47,12 +47,9 @@ const AccessibleAffordableAdaptable = () => {
           <Image src={build_image} alt="GetYourVirtualOffice" loading="lazy" />
         </div>
         <div className="accessible-right-part">
-          <h2>Accessible. Affordable. Adaptable</h2>
+          <h2>Readily Available. Economical. Adjustable</h2>
           <p>
-            Whether you're an established enterprise or a scaling startup, your
-            Virtual office should drive your business forward. Our virtual
-            office solutions take your business places! (Accessible. Affordable.
-            Adaptable)
+          Experience a revolutionary shift in business operations with our cutting-edge virtual office solutions. Elevate your brand with prestigious addresses, seamless connectivity, and professional support. Expand your reach effortlessly, enhance flexibility, and boost productivity. Embrace the future of work and propel your business to new heights with our innovative virtual office services.
           </p>
           <div className="details-grid">
             {listof_details.map((items, index) => (

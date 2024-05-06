@@ -9,21 +9,18 @@ const HeroBottom = () => {
       <div className="hero-box">
         <div>
           <Image src={userBlack} alt="User" />
-          <h3>Unleash Flexibility</h3>
-          <p>Work from anywhere in India with a prestigious virtual address.</p>
+          <h3>Seamless connectivity</h3>
+          <p>Seamless connectivity anywhere in India for uninterrupted workflow and collaboration.</p>
         </div>
         <div>
           <Image src={userBlack} alt="User" />
-          <h3>Simplify Operations</h3>
-          <p>
-            Get a mailing address, access GST registration, and enjoy
-            streamlined services.
-          </p>
+          <h3>Professional Image</h3>
+          <p>Project professionalism with our prestigious business address and phone answering services.</p>
         </div>
         <div style={{ backgroundColor: "#23A6F0", color: "#FFFFFF" }}>
           <Image src={userWhite} alt="User" />
-          <h3>Boost Credibility</h3>
-          <p>Project a professional image and attract top talent nationwide.</p>
+          <h3>Flexible Solutions</h3>
+          <p>Tailored virtual office plans offer flexibility to scale as your business grows.</p>
         </div>
       </div>
     </div>

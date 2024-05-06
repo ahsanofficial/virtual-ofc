@@ -97,7 +97,7 @@
             }
             .down{
                 left: 55%;
-                top:28%;
+                top: 22%;
                 @include tablet{
                     left: -21.5%;
                     top: 460px;
@@ -172,21 +172,6 @@
                     }
                 }
 
-            }
-            .one{
-                h5{
-                    width: 123px;
-                }
-            }
-            .two{
-                h5{
-                    width: 186px;
-                }
-            }
-            .two{
-                h5{
-                    width: 195px;
-                }
             }
         }
 
