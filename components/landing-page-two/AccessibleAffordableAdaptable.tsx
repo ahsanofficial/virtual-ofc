@@ -52,7 +52,7 @@ const AccessibleAffordableAdaptable = () => {
           <div className="accessible-right-part">
             <div className="details-grid">
               {listof_details.map((items, index) => (
-                <div>
+                <div key={index}>
                   <Image src={items.icon} alt={items.details} />
                   <h5>{items.title}</h5>
                   <p>{items.details}</p>

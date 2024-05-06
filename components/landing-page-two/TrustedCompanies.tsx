@@ -35,7 +35,7 @@ const TrustedCompanies = () => {
           <h2>Trusted by the world’s largest companies.</h2>
           <div className="list-comapny-log">
             {company_logo.map((item, index) => (
-              <div >
+              <div key={index}>
                 <Image
                   src={item.logo}
                   className="icons"
