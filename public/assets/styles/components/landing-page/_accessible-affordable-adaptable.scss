@@ -23,8 +23,9 @@
             align-items: center;
             justify-content: start;
             img{
-                max-width: 491px;
-                max-height: 491px;
+                aspect-ratio: 1/1;
+                width: 100%;
+                height: auto;
                 left: 176px;
                 gap: 0px;
                 opacity: 0px;
