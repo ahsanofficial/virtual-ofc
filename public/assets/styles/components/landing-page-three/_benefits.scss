@@ -2,6 +2,11 @@
 
 .p-three-benefits-container{
   position: relative;
+  padding-bottom: 74px;
+  
+  @include tablet{
+    padding-bottom: 32px;
+  }
   .btn-desk{
     button {
       position: absolute;
