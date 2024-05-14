@@ -10,6 +10,7 @@ import instagram from '../../assets/images/landing-page-three/instagram.svg'
 import linkedin from '../../assets/images/landing-page-three/linkedin.svg'
 import youtube from '../../assets/images/landing-page-three/youtube.svg'
 import twitter from '../../assets/images/landing-page-three/twitter.svg'
+import ZohoFormService from '../child_component/ZohoformService'
 
 
 export const Footer = () => {
@@ -70,9 +71,7 @@ export const Footer = () => {
             </div>
 
           </div>
-          <div className='form'>
-
-          </div>
+          <ZohoFormService service={'landing-page-three'} />
         </div>
       </div>
 

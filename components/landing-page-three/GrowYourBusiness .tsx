@@ -8,6 +8,7 @@ import razorpay from "../../assets/icons/landing-page-three/grow-your-business/r
 import slack from "../../assets/icons/landing-page-three/grow-your-business/slack.svg"
 import wework from "../../assets/icons/landing-page-three/grow-your-business/wework.svg"
 import zoho from "../../assets/icons/landing-page-three/grow-your-business/zoho.svg"
+import rightArrow from "../../assets/icons/landing-page-three/grow-your-business/rightArrow.svg"
 
 const company_logo = [
   { logo: zoho },
@@ -43,6 +44,7 @@ const GrowYourBusiness = () => {
             ))}
           </div>
         </div>
+          <button>Get in Touch <Image src={rightArrow} alt="arrow"/></button>
       </div> 
     </div>
   );

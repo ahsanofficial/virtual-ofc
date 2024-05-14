@@ -47,15 +47,17 @@ export default function Benefits() {
             <Image src={star} alt="star"  />
             
         </button></div>
+        <div className="btn-tablet">
+                <button><span>New reviews</span><Image src={star} alt="star"  /></button>
+            </div>
       
        
 
         <div className="container" >
           <div className="heading">
-            <h2>Benefits </h2>
-            <div className="btn-tablet">
-                <button><span>New reviews</span><Image src={star} alt="star"  /></button>
-            </div>
+            <h2 className="desk-font">Benefits </h2>
+            <h2 className="mob-font">Why register Pvt Ltd Company </h2>
+           
             <div className="line"></div>
           </div>
           <div className="cards">
