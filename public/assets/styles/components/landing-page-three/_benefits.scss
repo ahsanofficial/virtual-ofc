@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.p-three-benefits-container{
+  position: relative;
+  padding-bottom: 74px;
+  
+  @include tablet{
+    padding-bottom: 32px;
+  }
+  .btn-desk{
+    button {
+      position: absolute;
+      top: 190px;
+      left: 0 !important;
+      padding:14px;
+      gap: 10px;
+      border-radius: 6px;
+      margin-left: 0 !important;
+      opacity: 0px;
+      background-image: linear-gradient(90deg, #FF7300 0%, #FE9C28 100%);
+      margin: 0;
+      border: 2px solid #FE9C28;
+    }
+    
+    button span {
+      display: block;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 900;
+      line-height: 14.63px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    @include tablet{
+      display: none;
+    }
+  }
+  
+  
+  .container{
+     .heading{
+     
+      @include tablet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+      }
+      .btn-tablet{
+        display: none;
+        @include tablet{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 16px;
+          button {
+            padding: 0 8px 8px 8px ;
+            max-height: 28px;
+            background-color: #FF7704;
+            border: none;
+          }
+          
+          button span {
+            font-family: Montserrat;
+            font-size: 9.6px;
+            font-weight: 600;
+            line-height: 11.7px;
+            text-align: left;
+            color: #FFFFFF;
+            
+          }
+
+          img{
+            margin-left: 6px;
+          }
+        }
+
+      }
+      h2{
+
+        font-family: Montserrat;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        color:#FFA229;
+
+        @include tablet{
+          font-family: Montserrat;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.26px;
+          background: linear-gradient(270deg, #22417A, #3F78E0);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+        }
+      }
+      .line{
+        width: 66.4%;
+        height: 3px;
+        margin: auto;
+        margin: 29px auto 58px auto;
+        border: none;
+        background-color: #3F78E0;
+
+        @include tablet{
+          display: none;
+        }
+      }
+
+     }
+
+    //  card ::part
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap:27px;
+      max-width: 858px+125px+98px;
+      margin: auto;
+      
+
+      @include tablet{
+        grid-template-columns: 1fr 1fr;  
+        gap: 16px;
+      }
+
+      @include min-devices{
+        grid-template-columns: 1fr;  
+        gap: 16px;
+      }
+      .item{
+        width: 100%;
+        height: 250px;
+        padding: 41px 24px 40px 24px;
+        border-radius: 20px;
+        border: 1px solid #FE9C28;
+        box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);  
+        background-color: #FFFDF5;
+        @include tablet{
+          min-width: 160px;
+          height: 100%;
+          border-radius: 12px;
+          padding:0px 20px !important;
+          border: 1px solid #fe9e2871;
+        }
+
+        @include min-devices{
+          height: 100%;
+        }
+
+        .item-content{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap:22px;
+          align-items: center;
+          @include tablet{
+            padding-top:16px ;
+          }
+          p{
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+            color: #004CD3;
+            text-transform:uppercase;
+            @include tablet{
+
+              font-family: Montserrat;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 21.94px;
+              text-align: center;
+              color: #252525;
+              text-transform: capitalize;
+
+            }
+           
+
+          }
+          img{
+            height: 100px;
+            width: 100px;
+            @include tablet{
+              width: 64px;
+              height: 64px;
+              gap: 0px;
+              border-radius: 64px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
