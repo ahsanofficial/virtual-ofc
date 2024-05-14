@@ -1,6 +1,6 @@
 import NextNProgress from "nextjs-progressbar";
 import Faq from "../components/landing-page-three/Faq";
-import Carousel from "../components/landing-page-two/client-testimonial/Carousel";
+import Carousel from "../components/landing-page-three/Carousel";
 import { Footer } from "../components/landing-page-three/LandingPageFooter";
 import ClientTestimonials from "../components/landing-page-three/ClientTestimonials";
 

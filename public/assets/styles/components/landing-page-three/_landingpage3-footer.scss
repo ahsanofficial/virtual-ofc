@@ -23,7 +23,6 @@
 
         @include mobile{
             padding:0;
-            
         }
 
         .hanging-tel-lg{
@@ -35,12 +34,22 @@
                 display: none;
             }
         }
-        .hanging-tel-sm{
+
+        .hanging-tel-md{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
             display: none;
-            @include mobile{
+            @include tablet{
                 display: block;
             }
+            @include mobile{
+                display: none;
+            }
+
         }
+        
 
         .heading{
             display: flex;
@@ -95,6 +104,12 @@
                             text-transform: capitalize;
                             color: #FFA229;
                         }
+                    }
+                }
+                .hanging-tel-sm{
+                    display: none;
+                    @include mobile{
+                        display: block;
                     }
                 }
             }

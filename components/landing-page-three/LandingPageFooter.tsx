@@ -19,6 +19,9 @@ export const Footer = () => {
         <div className='hanging-tel-lg'>
           <Image src={telephonelg.src} alt='logo' width={106} height={184} />
         </div>
+        <div className='hanging-tel-md'>
+          <Image src={telephonesm.src} alt='logo' width={58} height={70} />
+        </div>
         
 
         <div className='heading'>
