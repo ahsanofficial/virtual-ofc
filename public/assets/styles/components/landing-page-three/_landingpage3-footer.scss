@@ -1,0 +1,28 @@
+.landingpage3-footer{
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .copyright{
+        background: #004CD2;
+        padding: 1rem;
+        p{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: center;
+            color: white;
+
+            @include mobile{
+                font-size: 12px;
+                line-height: 15px;
+            }
+
+        }
+        
+    }
+}
