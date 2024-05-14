@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container-big {
+ 
+  justify-content: center;
+  height: 420px;
+}
+.main-container {
+  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.underline {
+  border-bottom: 3px solid #3f78e0;
+  height: 150px;
+  width: 858px;
+  padding-bottom: 40px;
+  margin: 33px;
+}
+
+.main-heading-2nd-part {
+  background-image: linear-gradient(to right, #3f78e0, #22417a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+}
+
+.main-heading {
+  color: #ffa229;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+}
+
+.second-text {
+  width: 1100px;
+  height: 77px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.second-main-container {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  margin-top: 34px;
+}
+.color-span{
+    width: 1100px;
+    height: 77px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #004CD2;
+
+}
+
+.main-image{
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+}
+.image-one{
+  width: 1496px;
+    height:410px;
+
+}
+
+.main-image-second{
+  display: none;
+  
+}
+@include tablet {
+    .main-container{
+        display: flex ;
+        justify-content: center ;       
+        width: 1294px;
+        margin: 0 12%;
+        text-align: center;
+    }
+    .second-main-container{
+      width: 1294px;
+      height: auto;
+      margin: 0 12%;
+      text-align: center;
+    }
+    .main-image{
+      display: block;
+    }
+    .image-one{
+     height: auto;
+    }
+
+
+    
+}
+@include mobile {
+ .main-container{
+  text-align: left;
+  margin:24px 16px ;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31.14px;
+  width: 500px;
+  height: 65%;
+
+ }
+ .underline{
+  border-bottom: none;
+ }
+ .second-main-container{
+  text-align: left;
+  margin: 0px 40px;
+  width: 500px;
+ }
+ .main-image{
+  display: none;
+ }
+ .main-image-second{
+  display: block;
+ 
+ }
+ .image-second{
+  
+  height: 671px;
+  width: 539px;
+  
+ }
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+  .main-container{
+    display: flex ;
+    justify-content: center ;       
+    width: 1294px;
+    margin: 0 8%;
+    text-align: center;
+}
+.second-main-container{
+  width: 1294px;
+  height: auto;
+  margin: 0 8%;
+  text-align: center;
+}
+.main-image{
+  display: block;
+
+}
+  
+}
+
