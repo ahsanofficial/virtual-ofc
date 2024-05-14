@@ -1,0 +1,32 @@
+.landing-three-header{
+    font-family: Montserrat;
+    div{
+        margin: 15px 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.5px;
+            color: #F9F9F9;
+            background: linear-gradient(#004CD2, #204D9E);
+            border: none;
+            border-radius: 6px;
+            padding: 10px 9px;
+            @include mobile{
+                font-size: 10px;
+                line-height: 12.19px;
+            }
+        }
+        @include mobile{
+            margin: 20px;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .logo-img{
+            width: 148px;
+            height: 24px;
+        }
+    }
+}

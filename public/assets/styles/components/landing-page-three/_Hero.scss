@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.landing-three-hero{
+    font-family: Montserrat;
+    background-image: url("../../../../../assets/images/landing-page-three/Hero/Hero.svg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: auto;
+    .hero-notice{
+        text-align: center;
+        background: linear-gradient(#FF7300, #FF7300, #FE9C28);
+        display: flex;
+        gap: 23px;
+        justify-content: center;
+        align-items: center;
+        .text-data{
+            font-weight: 600;
+            color: #FFFFFF;
+            text-align: left;
+            div{
+                font-family: Outfit;
+                display: inline;
+                margin-right: 14px;
+                font-size: 22px;
+                line-height: 40px;
+                letter-spacing: 2.2px;
+                @include mobile{
+                    font-size: 10px;
+                    line-height: 14.03px;
+                    margin-right: 5px;
+                    letter-spacing: 0px;
+                }
+            }
+            button{
+                font-family: Outfit;
+                background-color: #024DD0;
+                width: 97px;
+                height: 36px;
+                border: none;
+                color: #FFFFFF;
+                border-radius: 8px;
+                padding: 8px 14px;
+                font-size: 16px;
+                line-height: 20.16px;
+                margin: 4px;
+                @include mobile{
+                    font-size: 10px;
+                    line-height: 14.03px;
+                    width: 51px;
+                    height: 17px;
+                    padding: 1px 4px;
+                    border-radius: 4px;
+                }
+            }
+        }
+        @include mobile{
+            gap: 20.24px;
+        }
+    }
+    .landing-hero-content{
+        display: grid;
+        grid-gap: 81px;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 35px 90px;
+        .hero-left{
+            color: #004CD2;
+            h1{
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48.76px;
+                letter-spacing: 2.4px;
+                margin-bottom: 18px;
+                @include mobile{
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 27.36px;
+                    color: #25324B;
+                    letter-spacing: 0px;
+                }
+            }
+            p{
+                width: 74%;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 29.26px;
+                letter-spacing: 1.4px;
+                margin-bottom: 24px;
+                @include mobile{
+                    width: 100%;
+                    font-family: Manrope;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 16.39px;
+                    color: #022A73;
+                    letter-spacing: 0px;
+                }
+            }
+            .service-images{
+                display: grid;
+                grid-gap: 29px;
+                grid-template-columns: repeat(2, 1fr);
+                width: 369px;
+                height: 289px;
+                padding: 19px;
+                margin-bottom: 36px;
+                div{
+                    .img-size{
+                        @include mobile{
+                            width: 7rem;
+                        }
+                        @media screen and (max-width: 400px) {
+                            width: 6rem;
+                        }
+                    }
+                }
+                .span-image-center{
+                    grid-column: span 2;
+                    text-align: center;
+                }
+                @include tablet{
+                    margin-bottom: 10px;
+                }
+                @include mobile{
+                    display: flex;
+                    gap: 17px;
+                    width: 100%;
+                    height: auto;
+                    padding: 0px;
+                }
+            }
+            .user-reviews{
+                font-family: Product Sans Medium;
+                div{
+                    display: flex;
+                    align-items: center;
+                    .review-star{
+                        display: none;
+                        @include mobile{
+                            display: block;
+                            margin-left: 8px;
+                        }
+                    }
+                    span{
+                        font-size: 32px;
+                        font-weight: 500;
+                        line-height: 44.8px;
+                        color: #19191C;
+                        margin-left: 13px;
+                        @include mobile{
+                            font-size: 17px;
+                            line-height: 16.98px;
+                            color: #252525;
+                            margin-left: 8px;
+                        }
+                    }
+                    .googleImg{
+                        @include mobile{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 20px;
+                            border: none;
+                        }
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 23.6px;
+                    letter-spacing: 2.4px;
+                    color: #000000;
+                    margin-top: 12px;
+                    @include mobile{
+                        font-size: 14px;
+                        line-height: 16.98px;
+                        color: #252525;
+                        letter-spacing: 0px;
+                        margin: 0px;
+                        margin-left: 10px;
+                        position: relative;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: -5px;
+                            top: 0;
+                            bottom: 0;
+                            width: 1.5px;
+                            background-color: #252525;
+                        }
+                    }
+                }
+                @include mobile{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+        .hero-right{
+            width: 410px;
+            height: 433px;
+            border: none;
+            border-radius: 15px;
+            background-color: #ECF3FF;
+            @include tablet{
+                width: 100%;
+                margin: 20px auto;
+            }
+        }
+        @include tablet{
+            grid-template-columns: 1fr;
+            grid-gap: 25px;
+        }
+        @include mobile{
+            margin: 12px 16px;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .flash-icon{
+            width: 19.16px;
+            height: 20.72px;
+        }
+    }
+}
