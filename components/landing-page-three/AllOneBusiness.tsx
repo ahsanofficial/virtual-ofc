@@ -44,7 +44,7 @@ const AllOneBusiness = () => {
         </div>
         <div className="cards">
           {list_items.map((item, index) => (
-            <div className="item" key={index}>
+            <div className={`item ${index === (list_items.length-1)?'last':''}`}  key={index}>
               <div className="item-content">
                 <p>{item.details}</p>
                 <Image src={item.icon} alt={item.details} />

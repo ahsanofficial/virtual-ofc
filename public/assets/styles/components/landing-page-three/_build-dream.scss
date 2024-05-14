@@ -1,0 +1,155 @@
+.p-three-build-dream-container{
+
+    padding-top: 113px;
+    @include tablet{
+        padding-top: 32px;
+    }
+    .container{
+
+    .heading{
+        
+
+        h2{
+            max-width: 673px;
+            font-family: Montserrat;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 55px;
+            text-align: center;
+            margin: auto;
+            color: #FFA229;
+
+            @include tablet{
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29.26px;
+                text-align: left;
+                padding-bottom: 16px;
+            }
+            span{
+                background: linear-gradient(270deg, #22417A, #3F78E0);
+                 background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: Montserrat;
+                font-size: 44px;
+                font-weight: 700;
+                line-height: 55px;
+                text-align: center;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 23px;
+                    font-weight: 700;
+                    line-height: 28.04px;
+                    text-align: left;
+
+                }
+            }
+
+        
+        }
+        .line{
+          width: 66.4%;
+          height: 3px;
+          margin: 25px auto 150px auto;
+          border: none;
+          background-color: #3F78E0;
+  
+          @include tablet{
+            display: none;
+          }
+        }
+  
+       }
+
+    //    card 
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+
+
+      @include tablet{
+        display: flex;
+        flex-direction: column;
+        gap:0;
+        
+      }
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include tablet{
+
+                flex-direction: row;
+                max-width: 990px;
+                padding: 8px 16px 8px 16px;
+                gap: 16px;
+                border-width: 1px 1px 0 1px;
+                border-style: solid;
+                border-color: #C9C9C9;
+                background-color: transparent;
+                opacity: 0px;
+                border-radius: 0px;
+              }   
+            img{
+                min-width: 70%;
+                min-height: 70%;
+                border: 1px solid #FF7300;
+                padding: 24px 24px 23px 24px;
+                box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);
+                gap: 0px;
+                border-radius: 15px ;
+                opacity: 0px;
+                @include tablet{
+                    border: none;
+                    box-shadow:none;
+                    min-width: 0%;
+                    min-height: 0%;
+                    width: 42px;
+                    height: 30px;
+                    padding: 0px 7px 0px 10.5px;
+                    padding: 0;
+                    margin: 0;
+                    width: fit-content !important;
+                    gap: 0px;
+                    opacity: 0px;
+                    border-radius: 0;
+
+                }
+
+            }
+
+            p{
+                width: 65%;
+                font-family: Montserrat;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 26.82px;
+                text-align: center;
+                padding-top: 31px;
+                color: #333333;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    text-align: left;
+                    padding-top: 0px;
+                    color: #252525;
+                    margin-top: 13px;
+                }
+
+            }
+        }
+        .last{
+            @include tablet{
+                border-width: 1px 1px 1px 1px;
+                border-style: solid;
+                border-color: #C9C9C9;
+            }
+        }
+    }
+            
+  }
+}

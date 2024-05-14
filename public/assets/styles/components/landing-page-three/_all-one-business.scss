@@ -5,8 +5,10 @@
  background-color: #FFFFFF;
 
  padding-top: 81px;
+ padding-bottom: 88px;
  @include tablet{
   margin-top: 32px;
+  margin-bottom: 32px;
   padding-top: 32px;
   box-shadow: 1px 1px 15px 1px #e7e5e5;
  }
@@ -150,6 +152,12 @@
           }
         }
       }
+        .last{
+          border-width: 1px 1px 1px 1px;
+          border-style: solid;
+          border-color: #C9C9C9;
+      }
+
     }
   }
 }
