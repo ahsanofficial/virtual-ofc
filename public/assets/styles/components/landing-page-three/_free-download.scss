@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.p-three-free-download{
+    background-color: #F5F6FC;
+    .container{
+        display: flex;
+        max-width:983.06px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 0;
+
+        @include tablet{
+            width: 96%;
+            flex-direction: column;
+            padding: 16px;
+            box-shadow: 0px 0px 5px 5px rgba(212, 209, 209, 0.61);  
+            gap: 40px;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+        }
+        .typeography-container{
+            max-width: 660px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            @include tablet{
+                gap: 12px;
+            }
+            
+            h1 {
+                background: linear-gradient(270deg, #22417A, #3F78E0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text; /* Standard property for compatibility */
+                font-family: Montserrat;
+                font-size: 52px;
+                font-weight: 800;
+                line-height: 63.39px;
+                text-align: left;
+                width: 100%;
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 29.26px;
+                    text-align: left;
+                    background: linear-gradient(270deg, #22417A, #3F78E0);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+
+                }
+            }
+            h2{
+                font-family: Montserrat;
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 48.76px;
+                text-align: left;
+                text-transform: uppercase;
+                color: #2F2F2F;                
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 19.5px;
+                    text-align: left;
+
+                    
+                }
+            }
+            p{
+                font-family: Montserrat;
+                font-size: 27.59px;
+                font-weight: 500;
+                line-height: 36.98px;
+                text-align: left;
+                color: #2D2D2D;                
+                @include tablet{
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 21.44px;
+                    text-align: left;
+                    color: #252525B2;
+                    
+                }
+            }
+            button{
+                width: 361px;
+                height: 68px;
+                gap: 0px;
+                border-radius: 15px;
+                border: none;
+                opacity: 0px;                
+                font-family: Montserrat;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 29.48px;
+                text-align: left;
+                text-align: center;
+                color: #FFFFFF;
+                background-image: linear-gradient(90deg, #004CD2 0%, #204D9E 100%);
+                box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);  
+                
+                    &:hover{
+                        background-image: linear-gradient(90deg, #ffa2298a 0%, #FFA229 100%);
+                        color: blue;
+                    }
+                
+               @include tablet{
+                display: none;
+               }
+    
+            }
+            
+        }
+        .img-container{
+            img{
+                max-width: 300px;
+                gap: 0px;
+                opacity: 0px;
+
+                @include tablet{
+                    max-height: 296.22px;
+                    gap: 0px;
+                }
+                @include mobile{
+                    max-width: 222.34px;
+                    height: 265px;
+                    gap: 0px;
+                }
+               
+            }
+        }
+      
+    .outer-btn{
+        display: none;
+            @include tablet{
+                display: block;
+                margin: auto;
+                left: 16px;
+                padding: 16px;
+                gap: 12px;
+                border-radius: 4px;
+                opacity: 0px;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 28.8px;
+                text-align: center;
+                border: none;                
+                color: #FFFFFF;
+                background-image: linear-gradient(90deg, #004CD2 0%, #204D9E 100%);
+                box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);  
+                
+                    &:hover{
+                        background-image: linear-gradient(90deg, #ffa2298a 0%, #FFA229 100%);
+                        color: blue;
+                    }
+        }
+    }
+    
+    }
+
+}
