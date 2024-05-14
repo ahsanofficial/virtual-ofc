@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+
+.p-three-all-one-business-container{
+ background-color: #FFFFFF;
+
+ padding-top: 81px;
+ @include tablet{
+  margin-top: 32px;
+  padding-top: 32px;
+  box-shadow: 1px 1px 15px 1px #e7e5e5;
+ }
+  .container{
+     .heading{
+      margin-bottom: 125px;
+
+      @include tablet{
+        margin-bottom: 24px;
+      }
+      h2{
+
+        font-family: Montserrat;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 53.64px;
+        text-align: center;
+        background: linear-gradient(270deg, #22417A, #3F78E0);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;  
+        @include tablet{
+          font-family: Montserrat;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.26px;
+          text-align: left;
+
+        }  
+      }
+      p{
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #333333;
+        @include tablet{
+          font-family: Montserrat;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.5px;
+          text-align: left;
+          color: #252525;
+        }
+        
+
+      }
+      .line{
+        width: 66.4%;
+        height: 3px;
+        margin: auto;
+        border: none;
+        background-color: #FE9C28;
+
+        @include tablet{
+          display: none;
+        }
+      }
+
+     }
+
+    //  card ::part
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 43px;
+      align-content: center;
+      row-gap: 88px;
+
+      @include tablet{
+        display: flex;
+        flex-direction: column;
+        gap:0;
+        
+      }
+
+      .item{
+        max-width: 338px;
+        padding: 34px 20px 32px 21px;
+        gap: 0px;
+        border-radius: 15px;
+        border: 1px solid #3F78E0;
+        background-color: #FFFDF5;
+       
+        @include tablet{
+          max-width: 990px;
+          padding: 8px 16px 8px 16px;
+          gap: 16px;
+          border-width: 1px 1px 0 1px;
+          border-style: solid;
+          border-color: #C9C9C9;
+          background-color: transparent;
+          opacity: 0px;
+          border-radius: 0px;
+
+
+        }
+
+        .item-content{
+          display:  flex;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          @include tablet{
+            flex-direction: row-reverse;
+            justify-content: start;
+            align-items: center;
+            gap:16px;
+            align-content: center;
+          }
+
+          p{
+            font-family: Sen;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 30.05px;
+            text-align: left;
+            color: #FF7300;
+            max-width: 60%;
+            @include tablet{
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 19.5px;
+              letter-spacing: 0.01em;
+              text-align: left;
+              color: #252525;
+              max-width: 990px;
+              margin-top: 13px;
+            }
+
+          }
+          img{
+            width: 125px;
+            height: 116px;
+
+            @include tablet{
+              width: 42.07px;
+              height: 32.41px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
