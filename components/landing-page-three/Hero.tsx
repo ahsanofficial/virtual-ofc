@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import flash from '../../assets/icons/landing-page-three/flash.svg'
+import flash from '../../assets/icons/landing-page-three/Hero/flash.svg'
 import businessFormed from '../../assets/images/landing-page-three/Hero/business.svg'
 import industyYears from '../../assets/images/landing-page-three/Hero/industryYears.svg'
 import transparent from '../../assets/images/landing-page-three/Hero/transparent.svg'
-import google from '../../assets/icons/landing-page-three/google.svg'
-import star from '../../assets/icons/landing-page-three/star.svg'
+import google from '../../assets/icons/landing-page-three/Hero/google.svg'
+import star from '../../assets/icons/landing-page-three/Hero/star.svg'
 
 const Hero = () => {
   return (
