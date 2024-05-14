@@ -1,0 +1,137 @@
+.p-three-grow-your-business {
+    padding-top: 94px;
+  .container {
+    .heading {
+      margin-bottom: 125px;
+
+      @include tablet {
+        margin-bottom: 24px;
+      }
+      h2 {
+        font-family: Montserrat;
+        max-width: 926px;
+        margin: auto;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 53.64px;
+        text-align: center;
+        background: linear-gradient(270deg, #22417a, #3f78e0);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        @include tablet{
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: left;
+        }
+        
+        span {
+          color: #ffa229 !important;
+          background: linear-gradient(270deg, #ffa229, #ffa229);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          @include tablet{
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.26px;
+            text-align: left;
+
+          }
+        }
+
+      }
+      p {
+        max-width: 1067px;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin: auto;
+        color: #333333;
+        @include tablet {
+          font-family: Montserrat;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.5px;
+          text-align: left;
+          color: #252525;
+          margin: 16px auto 0px auto;
+        }
+      }
+      .line {
+        width: 66.4%;
+        height: 3px;
+        margin: 20px auto;
+        border: none;
+        background-color: #fe9c28;
+
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
+    .all-items-container {
+        margin: 0 10%;
+        display: flex; 
+        justify-content: center; 
+       
+       
+        @include tablet{
+            width: 100%;
+            margin: auto;
+        }
+        .list-comapny-log {
+            
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 17px;
+            align-items: center;
+            align-content: center;
+            @include tablet{
+                grid-template-columns: repeat(3,1fr);
+                column-gap: 0px;
+            }
+
+            img{
+                @include tablet{
+                    
+                    margin-top: 0;
+                    display: flex;
+                    justify-content: center;
+                    max-width: 100%;
+                    margin: auto;
+                }
+    
+              
+                
+            }
+          }
+      }
+      
+     
+
+    
+      
+  }
+  @media screen and (max-width:1215px) {
+    .all-items-container {
+        margin: 0 10%;
+        display: flex; 
+        justify-content: center; 
+        .list-comapny-log {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 17px;
+            align-items: center;
+          }
+      }
+    
+  }
+
+
+}
