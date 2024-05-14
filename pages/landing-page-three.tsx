@@ -1,5 +1,5 @@
 
-import Whattime from "../components/Whattime";
+import Whattime from "../components/landing-page-three/Whattime";
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <>
       
       <Whattime/>
+      
       </>
     </div>
   );
