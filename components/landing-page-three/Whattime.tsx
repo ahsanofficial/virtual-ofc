@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import whattime from "../../assets/images/landing-page-three/whattime.svg";
-import responsive from "../../assets/images/landing-page-three/responsive.svg";
+import whattime from "../../assets/images/landing-page-three/whattime/whattime.svg";
+import responsive from "../../assets/images/landing-page-three/whattime/responsive.svg";
 const Whattime = () => {
   return (
     <div className='main-container-big'>
