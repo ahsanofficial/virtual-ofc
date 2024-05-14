@@ -13,6 +13,7 @@ import Faq from "../components/landing-page-three/Faq";
 import Carousel from "../components/landing-page-three/Carousel";
 import { Footer } from "../components/landing-page-three/LandingPageFooter";
 import ClientTestimonials from "../components/landing-page-three/ClientTestimonials";
+import WhatTime from '../components/landing-page-three/WhatTime';
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
         <FreeDownload/>
         <AllOneBusiness/>
         <BuildDream/>
+        <WhatTime/>
         <GrowYourBusiness/>
         <ClientTestimonials/>
         <Carousel clientTestmonailColor={'heading-color'}/>
