@@ -1,0 +1,123 @@
+.p-three-what-time-container{
+
+    padding-top: 113px;
+    @include tablet{
+        padding-top: 32px;
+    }
+    .container{
+
+    .heading{
+        
+
+        h2{
+            margin: auto;
+            max-width: 673px;
+            font-family: Montserrat;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 55px;
+            text-align: center;
+            color: #FFA229;
+            @include tablet{
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29.26px;
+                text-align: left;
+                margin-bottom: 16px;
+
+            }
+
+            span{
+                background: linear-gradient(270deg, #22417A, #3F78E0);
+                 background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: Montserrat;
+                font-size: 44px;
+                font-weight: 700;
+                line-height: 55px;
+                text-align: center;   
+                @include tablet{
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 29.26px;
+                    text-align: left;
+
+                }             
+            }
+
+        
+        }
+        p{
+            max-width: 1100px;
+            margin: auto;
+            font-family: Montserrat;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 40px;
+            text-align: center;
+            color: #333333;
+            @include tablet{
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 21.14px;
+                text-align: left;
+
+            }
+            span{
+                font-family: Montserrat;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 40px;
+                text-align: center;
+                background: linear-gradient(270deg, #22417A, #3F78E0);
+                background-clip: text;
+               -webkit-text-fill-color: transparent;
+
+               @include tablet{
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 21.14px;
+                text-align: left;
+
+               }
+
+            }
+
+        }
+        .line{
+          width: 66.4%;
+          height: 3px;
+          margin: 40px auto 54px auto;
+          border: none;
+          background-color: #3F78E0;
+  
+          @include tablet{
+            display: none;
+          }
+        }
+  
+       }  
+  }
+  .cards{
+    margin-top: 127px;
+    min-height:345px;
+    width: 100%;
+    background-color:  #204D9E;
+    
+    background-image: url(../../../../../assets/images/landing-page-three/what-time-it-is/banner.svg);
+    background-position: center; 
+    background-repeat: no-repeat;  
+    
+    @include tablet{
+        background-image: url(../../../../../assets/images/landing-page-three/what-time-it-is/banner-mobile.svg);
+        width: 100%;
+        height: 100%;
+        background-color: #0C4CBE;
+        margin-top: 40px;
+    }
+}
+}
