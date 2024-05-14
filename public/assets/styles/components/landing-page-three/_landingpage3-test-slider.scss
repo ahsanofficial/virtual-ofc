@@ -63,7 +63,11 @@
         }
 
         .left-arrow{
-            transform: translateX(-40px);
+            transform: translateX(-40px) translateY(-150%);
+        }
+        .right-arrow{
+            transform: translateY(-150%);
+            
         }
     }
 }
