@@ -1,5 +1,5 @@
 .p-three-grow-your-business {
-    padding-top: 94px;
+  padding-top: 94px;
   .container {
     .heading {
       margin-bottom: 125px;
@@ -18,30 +18,28 @@
         background: linear-gradient(270deg, #22417a, #3f78e0);
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        
-        @include tablet{
-            font-family: Montserrat;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 29.26px;
-            text-align: left;
+
+        @include tablet {
+          font-family: Montserrat;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.26px;
+          text-align: left;
         }
-        
+
         span {
           color: #ffa229 !important;
           background: linear-gradient(270deg, #ffa229, #ffa229);
           background-clip: text;
           -webkit-text-fill-color: transparent;
-          @include tablet{
+          @include tablet {
             font-family: Montserrat;
             font-size: 24px;
             font-weight: 700;
             line-height: 29.26px;
             text-align: left;
-
           }
         }
-
       }
       p {
         max-width: 1067px;
@@ -76,62 +74,74 @@
     }
 
     .all-items-container {
-        margin: 0 10%;
-        display: flex; 
-        justify-content: center; 
-       
-       
-        @include tablet{
-            width: 100%;
-            margin: auto;
+      margin: 0 10%;
+      display: flex;
+      justify-content: center;
+
+      @include tablet {
+        width: 100%;
+        margin: auto;
+      }
+      .list-comapny-log {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 17px;
+        align-items: center;
+        align-content: center;
+        @include tablet {
+          grid-template-columns: repeat(3, 1fr);
+          column-gap: 0px;
+          gap:10px;
         }
-        .list-comapny-log {
-            
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            column-gap: 17px;
-            align-items: center;
-            align-content: center;
-            @include tablet{
-                grid-template-columns: repeat(3,1fr);
-                column-gap: 0px;
-            }
 
-            img{
-                @include tablet{
-                    
-                    margin-top: 0;
-                    display: flex;
-                    justify-content: center;
-                    max-width: 100%;
-                    margin: auto;
-                }
-    
-              
-                
-            }
+        img {
+          @include tablet {
+            margin-top: 0;
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            margin: auto;
           }
+        }
       }
-      
-     
+    }
+    button {
+      display: none;
+      @include tablet {
+        display: flex;
+        gap: 8px;
+        margin: auto;
+        max-width: 165px;
+        border: none;
+        border-radius: 4px;
+        font-family: Neue Haas Grotesk Display Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+        text-align: left;
+        color: white;
+        padding: 16px 20px 16px 20px;
+        background: linear-gradient(89.83deg, #024cd0 0.11%, #022a71 99.81%);
+        box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);
 
-    
-      
+        &:hover {
+          background-image: linear-gradient(90deg, #ffa2298a 0%, #ffa229 100%);
+          color: blue;
+        }
+      }
+    }
   }
-  @media screen and (max-width:1215px) {
+  @media screen and (max-width: 1215px) {
     .all-items-container {
-        margin: 0 10%;
-        display: flex; 
-        justify-content: center; 
-        .list-comapny-log {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: 17px;
-            align-items: center;
-          }
+      margin: 0 10%;
+      display: flex;
+      justify-content: center;
+      .list-comapny-log {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 17px;
+        align-items: center;
       }
-    
+    }
   }
-
-
 }

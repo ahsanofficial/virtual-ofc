@@ -10,7 +10,7 @@
   .btn-desk{
     button {
       position: absolute;
-      top: 190px;
+      top: 195px;
       left: 0 !important;
       padding:14px;
       gap: 10px;
@@ -36,7 +36,35 @@
     }
   }
   
-  
+  .btn-tablet{
+    display: none;
+    @include tablet{
+      display: flex;
+      justify-content: start;
+      margin-bottom: 12px;
+      button {
+        padding: 0 8px 8px 8px ;
+        max-height: 28px;
+        background-color: #FF7704;
+        border: none;
+      }
+      
+      button span {
+        font-family: Montserrat;
+        font-size: 9.6px;
+        font-weight: 600;
+        line-height: 11.7px;
+        text-align: left;
+        color: #FFFFFF;
+        
+      }
+
+      img{
+        margin-left: 6px;
+      }
+    }
+
+  }
   .container{
      .heading{
      
@@ -46,37 +74,25 @@
         align-items: center;
         align-content: center;
       }
-      .btn-tablet{
+    
+      .mob-font{
+
         display: none;
+
         @include tablet{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 16px;
-          button {
-            padding: 0 8px 8px 8px ;
-            max-height: 28px;
-            background-color: #FF7704;
-            border: none;
-          }
-          
-          button span {
-            font-family: Montserrat;
-            font-size: 9.6px;
-            font-weight: 600;
-            line-height: 11.7px;
-            text-align: left;
-            color: #FFFFFF;
-            
-          }
+          display: block;
+          max-width: 220px;
+          font-family: Montserrat;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.26px;
+          background: linear-gradient(270deg, #22417A, #3F78E0);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
 
-          img{
-            margin-left: 6px;
-          }
         }
-
       }
-      h2{
+      .desk-font{
 
         font-family: Montserrat;
         font-size: 44px;
@@ -86,13 +102,8 @@
         color:#FFA229;
 
         @include tablet{
-          font-family: Montserrat;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 29.26px;
-          background: linear-gradient(270deg, #22417A, #3F78E0);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+
+          display: none;
 
         }
       }

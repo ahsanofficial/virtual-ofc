@@ -6,6 +6,7 @@ import industyYears from '../../assets/images/landing-page-three/Hero/industryYe
 import transparent from '../../assets/images/landing-page-three/Hero/transparent.svg'
 import google from '../../assets/icons/landing-page-three/Hero/google.svg'
 import star from '../../assets/icons/landing-page-three/Hero/star.svg'
+import ZohoFormService from '../child_component/ZohoformService'
 
 const Hero = () => {
   return (
@@ -58,7 +59,8 @@ const Hero = () => {
                     <p>15.7K+ Happy Reviews</p>
                 </div>
             </div>
-            <div className='hero-right'></div>
+            <ZohoFormService service={'landing-page-three'} />
+
         </div>
     </section>
   )
