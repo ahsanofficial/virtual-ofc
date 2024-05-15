@@ -1,15 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import telephonelg from '../../assets/images/landing-page-three/telephone-lg-screen.png'
-import telephonesm from '../../assets/images/landing-page-three/telephone-sm-screen.png'
-import email from '../../assets/images/landing-page-three/icon-park-outline_email-down.svg'
-import phone from '../../assets/images/landing-page-three/iconoir_phone-income.svg'
-import location from '../../assets/images/landing-page-three/fa6-solid_map-location.svg'
-import facebook from '../../assets/images/landing-page-three/facebook.svg'
-import instagram from '../../assets/images/landing-page-three/instagram.svg'
-import linkedin from '../../assets/images/landing-page-three/linkedin.svg'
-import youtube from '../../assets/images/landing-page-three/youtube.svg'
-import twitter from '../../assets/images/landing-page-three/twitter.svg'
+import telephonelg from '../../assets/images/private-limited-company-registration/telephone-lg-screen.png'
+import telephonesm from '../../assets/images/private-limited-company-registration/telephone-sm-screen.png'
+import email from '../../assets/images/private-limited-company-registration/icon-park-outline_email-down.svg'
+import phone from '../../assets/images/private-limited-company-registration/iconoir_phone-income.svg'
+import location from '../../assets/images/private-limited-company-registration/fa6-solid_map-location.svg'
+import facebook from '../../assets/images/private-limited-company-registration/facebook.svg'
+import instagram from '../../assets/images/private-limited-company-registration/instagram.svg'
+import linkedin from '../../assets/images/private-limited-company-registration/linkedin.svg'
+import youtube from '../../assets/images/private-limited-company-registration/youtube.svg'
+import twitter from '../../assets/images/private-limited-company-registration/twitter.svg'
 import ZohoFormService from '../child_component/ZohoformService'
 
 
@@ -71,7 +71,9 @@ export const Footer = () => {
             </div>
 
           </div>
-          <ZohoFormService service={'landing-page-three'} />
+          <div className='form'>
+            <ZohoFormService service={'private-limited-company-registration'} />
+          </div>
         </div>
       </div>
 

@@ -7,6 +7,9 @@
         box-sizing: border-box;
     }
 
+    @include tablet{
+        margin-top: 32px;
+    }
     @include mobile{
         background: white;
     }

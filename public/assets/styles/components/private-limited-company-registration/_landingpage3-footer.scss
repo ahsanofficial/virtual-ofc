@@ -8,7 +8,11 @@
     }
 
     background: white;
-
+    
+    @include tablet{
+        // margin-top: 54px;
+        border: 0.1px solid rgb(255, 254, 254);
+    }
     @include mobile{
         background: radial-gradient(circle at 50% 30%, #3774D760 0%, #FFFFFF 100%);
     }
@@ -20,7 +24,10 @@
         padding: 6rem 0;
 
         position: relative;
-
+        
+        @include tablet{
+            margin-top: 24px;
+        }
         @include mobile{
             padding:0;
         }
@@ -58,6 +65,10 @@
             gap: 1.75rem;
             
 
+            @include tablet{
+                padding: 0 0.7rem;
+                width: 100%;
+            }
             @include mobile{
                 gap: 0.5rem;
                 background: white;
@@ -197,8 +208,8 @@
 
         .form-and-socials{
             display: flex;
-            gap: 4.5rem;
             align-items: center;
+            justify-content: space-between;
 
             @include mobile{
                 flex-direction: column-reverse;
@@ -259,13 +270,8 @@
 
             }
             .form{
-                height: 225px;
-                width: 100%;
-                background: #F5F5F5;
-
-                @include mobile{
-                    background: white;
-                }
+                max-height: 270px+160px;
+                max-width: 727px;
             }
         }
     }

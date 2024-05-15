@@ -18,7 +18,7 @@ const Header = () => {
         {
           head: "Business Registration",
           sublink: [
-            { name: "Private Limited Company Registration", link: "/" },
+            { name: "Private Limited Company Registration", link: "/private-limited-company-registration" },
             { name: "Public Limited Comapany Registration", link: "/" },
             { name: "LLP Registration", link: "/" },
           ],

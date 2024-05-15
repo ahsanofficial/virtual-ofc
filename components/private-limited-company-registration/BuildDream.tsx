@@ -1,8 +1,8 @@
 import Image from "next/image";
-import FillUp from "../../assets/icons/landing-page-three/BuildDream/fill_up.svg";
-import GetYourCompany from "../../assets/icons/landing-page-three/BuildDream/get_your_company.svg";
-import PayOnly from "../../assets/icons/landing-page-three/BuildDream/pay_only.svg";
-import SubmitDoc from "../../assets/icons/landing-page-three/BuildDream/submit_doc.svg";
+import FillUp from "../../assets/icons/private-limited-company-registration/BuildDream/fill_up.svg";
+import GetYourCompany from "../../assets/icons/private-limited-company-registration/BuildDream/get_your_company.svg";
+import PayOnly from "../../assets/icons/private-limited-company-registration/BuildDream/pay_only.svg";
+import SubmitDoc from "../../assets/icons/private-limited-company-registration/BuildDream/submit_doc.svg";
 
 
 const list_items = [

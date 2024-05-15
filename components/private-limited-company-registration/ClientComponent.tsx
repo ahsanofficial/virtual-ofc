@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import star from '../../assets/images/landing-page-three/star.svg'
+import star from '../../assets/images/private-limited-company-registration/star.svg'
 
 interface ColorProps {
   clientName: string;

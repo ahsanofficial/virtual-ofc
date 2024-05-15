@@ -1,10 +1,10 @@
 import Image from "next/image";
-import CompanyInco from "../../assets/icons/landing-page-three/AllOneBusiness/company_inco.svg";
-import DinDsc from "../../assets/icons/landing-page-three/AllOneBusiness/din_dsc.svg";
-import DraftingMoa from "../../assets/icons/landing-page-three/AllOneBusiness/drafting_moa.svg";
-import PanTan from "../../assets/icons/landing-page-three/AllOneBusiness/pan_tan.svg";
-import Registration from "../../assets/icons/landing-page-three/AllOneBusiness/registration.svg";
-import ZohoBooks from "../../assets/icons/landing-page-three/AllOneBusiness/zoho_books.svg";
+import CompanyInco from "../../assets/icons/private-limited-company-registration/AllOneBusiness/company_inco.svg";
+import DinDsc from "../../assets/icons/private-limited-company-registration/AllOneBusiness/din_dsc.svg";
+import DraftingMoa from "../../assets/icons/private-limited-company-registration/AllOneBusiness/drafting_moa.svg";
+import PanTan from "../../assets/icons/private-limited-company-registration/AllOneBusiness/pan_tan.svg";
+import Registration from "../../assets/icons/private-limited-company-registration/AllOneBusiness/registration.svg";
+import ZohoBooks from "../../assets/icons/private-limited-company-registration/AllOneBusiness/zoho_books.svg";
 
 const list_items = [
   {

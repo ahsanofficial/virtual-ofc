@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import flash from '../../assets/icons/landing-page-three/Hero/flash.svg'
-import businessFormed from '../../assets/images/landing-page-three/Hero/business.svg'
-import industyYears from '../../assets/images/landing-page-three/Hero/industryYears.svg'
-import transparent from '../../assets/images/landing-page-three/Hero/transparent.svg'
-import google from '../../assets/icons/landing-page-three/Hero/google.svg'
-import star from '../../assets/icons/landing-page-three/Hero/star.svg'
+import flash from '../../assets/icons/private-limited-company-registration/Hero/flash.svg'
+import businessFormed from '../../assets/images/private-limited-company-registration/Hero/business.svg'
+import industyYears from '../../assets/images/private-limited-company-registration/Hero/industryYears.svg'
+import transparent from '../../assets/images/private-limited-company-registration/Hero/transparent.svg'
+import google from '../../assets/icons/private-limited-company-registration/Hero/google.svg'
+import star from '../../assets/icons/private-limited-company-registration/Hero/star.svg'
 import ZohoFormService from '../child_component/ZohoformService'
 
 const Hero = () => {
@@ -59,7 +59,8 @@ const Hero = () => {
                     <p>15.7K+ Happy Reviews</p>
                 </div>
             </div>
-            <ZohoFormService service={'landing-page-three'} />
+            <div className='hero-right'><ZohoFormService service={'private-limited-company-registration'} /></div>
+            
 
         </div>
     </section>

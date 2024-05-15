@@ -1,9 +1,9 @@
 import Image from "next/image"
-import credibility from "../../assets/icons/landing-page-three/Benefits/credibility.svg"
-import funding from "../../assets/icons/landing-page-three/Benefits/funding.svg"
-import legal_entity from "../../assets/icons/landing-page-three/Benefits/legal_entity.svg"
-import limited_liablity from "../../assets/icons/landing-page-three/Benefits/limited_liablity.svg"
-import star from "../../assets/icons/landing-page-three/Benefits/star.svg"
+import credibility from "../../assets/icons/private-limited-company-registration/Benefits/credibility.svg"
+import funding from "../../assets/icons/private-limited-company-registration/Benefits/funding.svg"
+import legal_entity from "../../assets/icons/private-limited-company-registration/Benefits/legal_entity.svg"
+import limited_liablity from "../../assets/icons/private-limited-company-registration/Benefits/limited_liablity.svg"
+import star from "../../assets/icons/private-limited-company-registration/Benefits/star.svg"
 
 
 

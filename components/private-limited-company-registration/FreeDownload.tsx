@@ -1,7 +1,7 @@
 import React from "react";
-import book from "../../assets/images/landing-page-three/free-download/book.svg";
-import google from '../../assets/icons/landing-page-three/Hero/google.svg'
-import star from '../../assets/icons/landing-page-three/Hero/star.svg'
+import book from "../../assets/images/private-limited-company-registration/free-download/book.svg";
+import google from '../../assets/icons/private-limited-company-registration/Hero/google.svg'
+import star from '../../assets/icons/private-limited-company-registration/Hero/star.svg'
 import Image from "next/image";
 
 const FreeDownload = () => {

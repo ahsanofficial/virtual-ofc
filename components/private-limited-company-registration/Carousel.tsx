@@ -8,9 +8,9 @@ import left_plain_arrow from "../../assets/icons/landing-page-two/carousel/left_
 import right_plain_arrow from "../../assets/icons/landing-page-two/carousel/right_plain_arrow.svg";
 import ClientComponent from "./ClientComponent";
 import Image from "next/image";
-import clientimg1 from '../../assets/images/landing-page-three/carouselimg1.png'
-import clientimg2 from '../../assets/images/landing-page-three/carouselimg2.png'
-import clientimg3 from '../../assets/images/landing-page-three/carouselimg3.png'
+import clientimg1 from '../../assets/images/private-limited-company-registration/carouselimg1.png'
+import clientimg2 from '../../assets/images/private-limited-company-registration/carouselimg2.png'
+import clientimg3 from '../../assets/images/private-limited-company-registration/carouselimg3.png'
 import { init } from "next/dist/compiled/webpack/webpack";
 
 
