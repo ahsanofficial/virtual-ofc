@@ -59,7 +59,8 @@ const Hero = () => {
                     <p>15.7K+ Happy Reviews</p>
                 </div>
             </div>
-            <ZohoFormService service={'landing-page-three'} />
+            <div className='hero-right'><ZohoFormService service={'landing-page-three'} /></div>
+            
 
         </div>
     </section>

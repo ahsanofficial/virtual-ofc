@@ -209,14 +209,12 @@
             }
         }
         .hero-right{
-            width: 410px;
-            height: 433px;
+            max-width: 410px;
+            max-height: 433px;
             border: none;
             border-radius: 15px;
-            background-color: #ECF3FF;
             @include tablet{
                 width: 100%;
-                margin: 20px auto;
             }
         }
         @include tablet{

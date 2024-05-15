@@ -1,6 +1,4 @@
-import Image from "next/image";
-import bg_banner from "../../assets/images/landing-page-three/what-time-it-is/banner.svg"
-import man_banner from "../../assets/images/landing-page-three/what-time-it-is/man-banner.png"
+
 
 const WhatTime = () => {
   return (

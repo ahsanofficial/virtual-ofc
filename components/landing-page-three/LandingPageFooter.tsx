@@ -71,7 +71,9 @@ export const Footer = () => {
             </div>
 
           </div>
-          <ZohoFormService service={'landing-page-three'} />
+          <div className='form'>
+            <ZohoFormService service={'landing-page-three'} />
+          </div>
         </div>
       </div>
 
