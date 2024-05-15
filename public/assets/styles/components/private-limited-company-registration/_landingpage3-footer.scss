@@ -10,7 +10,6 @@
     background: white;
     
     @include tablet{
-        // margin-top: 54px;
         border: 0.1px solid rgb(255, 254, 254);
     }
     @include mobile{
@@ -22,6 +21,7 @@
         max-width: 1280px;
         margin: 0 auto;
         padding: 6rem 0;
+        padding-bottom: 90px;
 
         position: relative;
         
@@ -209,7 +209,8 @@
         .form-and-socials{
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
+            gap:72px;
 
             @include mobile{
                 flex-direction: column-reverse;
@@ -270,8 +271,17 @@
 
             }
             .form{
-                max-height: 270px+160px;
-                max-width: 727px;
+                max-width: 40%;
+                max-height: 433px;
+                border: none;
+                border-radius: 15px;
+                @include tablet{
+                    margin: auto;
+                    max-width: 433px;
+                    height: 100%;
+                    margin-top: 0;
+                    padding-right: 0;
+                }
             }
         }
     }

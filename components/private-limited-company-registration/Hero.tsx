@@ -59,7 +59,9 @@ const Hero = () => {
                     <p>15.7K+ Happy Reviews</p>
                 </div>
             </div>
-            <div className='hero-right'><ZohoFormService service={'private-limited-company-registration'} /></div>
+            <div className='hero-right'>
+             
+                <ZohoFormService service={'private-limited-company-registration'} /></div>
             
 
         </div>
