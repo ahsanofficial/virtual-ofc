@@ -1,6 +1,6 @@
 import React from 'react'
-import speaker from '../../assets/images/landing-page-three/reviews-speaker.png'
-import clientImage from '../../assets/images/landing-page-three/clientImage.png'
+import speaker from '../../assets/images/private-limited-company-registration/reviews-speaker.png'
+import clientImage from '../../assets/images/private-limited-company-registration/clientImage.png'
 import Image from 'next/image'
 
 function ClientTestimonials() {

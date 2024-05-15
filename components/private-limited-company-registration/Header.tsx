@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../../assets/icons/landing-page-three/Header/logo.svg'
+import logo from '../../assets/icons/private-limited-company-registration/Header/logo.svg'
 
 const Header = () => {
   return (
