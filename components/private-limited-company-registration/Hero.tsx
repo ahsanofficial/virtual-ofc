@@ -8,7 +8,7 @@ import google from '../../assets/icons/private-limited-company-registration/Hero
 import star from '../../assets/icons/private-limited-company-registration/Hero/star.svg'
 import free_book from '../../assets/images/private-limited-company-registration/Hero/free_book.svg'
 import free_gst from '../../assets/images/private-limited-company-registration/Hero/free_gst.svg'
-import ZohoFormService from '../child_component/ZohoformService'
+import ZohoformServicePvt from '../child_component/ZohoformServicePvt'
 
 const Hero = () => {
   return (
@@ -65,7 +65,9 @@ const Hero = () => {
             <div className='hero-right'>
                 <Image src={free_book} width={64} height={64} className="free-book" alt="free book" />
                 <Image src={free_gst} width={64} height={64} className="free-gst" alt="free book" />
-                <ZohoFormService service={'private-limited-company-registration'} /></div>
+                <ZohoformServicePvt service={'private-limited-company-registration'} />
+               
+                </div>
              </div>
     </section>
   )

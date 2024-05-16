@@ -14,6 +14,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
 
         @include tablet{
             width: 96%;
@@ -25,11 +26,14 @@
     .content-container{
         margin: auto;
         display: flex;
-        max-width:983.06px;
+        // width:1082px;
+        width: 85%;
+        
         justify-content: space-between;
         align-items: center;
 
         @include tablet{
+            width: 100%;
             flex-direction: column;
             gap: 40px;
         }
@@ -125,76 +129,62 @@
       
     
     }
-
-    .user-reviews{
-      
-        display: none;
+    .right{
+        display: flex;
+        gap: 50px;
         @include tablet{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display:  none;
         }
-
-        p{
-            font-family: Product Sans Medium;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 16.98px;
-            text-align: left;
-
-        }
+        .user-reviews{
         
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+            @include tablet{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            p{
+                font-family: Product Sans Medium;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.98px;
+                text-align: left;
+                margin-top: 15px;
+
+            }
             .line{
                 width: 0.5px;
-                // border: 0.5px solid #252525;
                 background-color: #252525;
                 border: none;
                 height: 10px;
                 margin-left: 7px;
                 margin-right: 7px;
-                margin-top: 17px;
-
+                margin-top: 1.5px;
                 @include min-devices{
                     display:  none;
                 }
             }
-            .box{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                align-content: center;
-                span{
-              
-
-                    @include tablet{
-                        display: flex;
-                        font-family: Product Sans;
-                        font-size: 14px;
-                        font-weight: 400;
-                        line-height: 16.98px;
-                        text-align: left;
-                        color: #252525;
-                    }
+                .googleImg{
+                    height: 40px;
+                    width: 40px;
+                    padding: 6px;
+                    border-radius: 20px;
+                    opacity: 0px;
 
                 }
-            }
-           
-            .googleImg{
-                height: 40px;
-                width: 40px;
-                padding: 6px;
-                border-radius: 20px;
-                opacity: 0px;
+                .review-star{
+                    width: 12.71px;
+                    height: 12px;
 
-            }
-            .review-star{
-                width: 12.71px;
-                height: 12px;
-
-            }
-         
-        
-    }
+                }
+            
+            
+        }
         button{
             width: 361px;
             height: 68px;
@@ -231,6 +221,49 @@
         }
 
         }
+    }
+      
+    .new-right{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .box{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            gap:11px;
+
+            .googleImg{
+                height: 40px;
+                width: 40px;
+            }
+        }
+
+        button{
+            border-radius: 4px;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28.8px;
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #204D9E;
+
+            text-align: center;
+            color: #FFFFFF;
+            background-image: linear-gradient(90deg, #004CD2 0%, #204D9E 100%);
+            box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);  
+            
+                &:hover{
+                    background-image: linear-gradient(90deg, #ffa2298a 0%, #FFA229 100%);
+                    color: blue;
+                }
+
+        }
+     
+      
+    }
     }
 
 }

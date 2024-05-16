@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap");
+
+.ZohoformServicePvt {
+
+    // body
+  .zf-templateWrapper {
+    background: #ecf3ff !important;
+    width: 410px;
+    top: 172px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    padding: 26px 27px 35px 27px !important;
+
+    .ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .zf-descFld ol.code {
+      list-style-position: none;
+      list-style-type: none;
+      padding: 0;
+    }
+    .display-none{
+        display: none !important;
+    }
+    @include tablet{
+        max-width: 433px;
+       
+    }
+    @include mobile{
+        width: 100%;
+        height: 100%;
+   
+    }
+  }
+
+
+
+
+
+  // heading
+  .zf-formHeading {
+    list-style: none !important;
+    max-width: 290px;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    color: #002ad2;
+    margin-bottom: 16.22px;
+
+    &::marker {
+      list-style: none;
+      display: none;
+    }
+
+    span {
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17.07px;
+      text-align: left;
+      color: #ff7805;
+    }
+  }
+  // submit button
+  .zf-submitColor {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 2px solid #3f78e0;
+    opacity: 0px;
+    background: linear-gradient(90deg, #004cd2 0%, #204d9e 100%);
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    box-shadow: 0px 5px 5px rgba(155, 154, 154, 0.61);
+
+  
+
+    @include tablet {
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #014cd1 0%, #01286e 100%);
+    }
+  }
+
+  // input
+  .zf-tempContDiv {
+    margin-top: 15px;
+    span {
+      .zf-form-sBox,
+      input {
+        width: 100%;
+        border: 1px solid #767576;
+        background-color: #ffffff !important;
+        color: #242024 !important;
+        font-family: Montserrat;
+        font-size: 13.44px;
+        font-weight: 500;
+        line-height: 16.39px;
+        text-align: left;
+        padding: 10.64px 19.5px 10.64px 14.18px;
+        border-radius: 7.47px;
+
+        &::placeholder {
+          color: #767576 !important;
+        }
+      }
+    }
+    .zf-phwrapper{
+        display:  flex;
+        justify-content: center;
+        gap: 0 !important;
+        .zf-form-sBox{
+            width: 80% !important;
+            padding-right: 0;
+            margin-right: 0;
+        }
+        #international_PhoneNumber_countrycode{
+          
+        }
+    }
+
+  
+  }
+}

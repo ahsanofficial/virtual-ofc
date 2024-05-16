@@ -10,7 +10,7 @@ import instagram from '../../assets/images/private-limited-company-registration/
 import linkedin from '../../assets/images/private-limited-company-registration/linkedin.svg'
 import youtube from '../../assets/images/private-limited-company-registration/youtube.svg'
 import twitter from '../../assets/images/private-limited-company-registration/twitter.svg'
-import ZohoFormService from '../child_component/ZohoformService'
+import ZohoformServicePvt from '../child_component/ZohoformServicePvt'
 
 
 export const Footer = () => {
@@ -72,7 +72,7 @@ export const Footer = () => {
 
           </div>
           <div className='form'>
-            <ZohoFormService service={'private-limited-company-registration'} />
+          <ZohoformServicePvt service={'private-limited-company-registration'} />
           </div>
         </div>
       </div>

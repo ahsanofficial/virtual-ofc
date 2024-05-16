@@ -56,7 +56,6 @@ export default function Benefits() {
         <div className="container" >
           <div className="heading">
             <h2 className="desk-font">Why register Pvt Ltd Company  </h2>
-            <h2 className="mob-font">Why register Pvt Ltd Company </h2>
            
             <div className="line"></div>
           </div>

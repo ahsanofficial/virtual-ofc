@@ -79,23 +79,6 @@
         align-content: center;
       }
     
-      .mob-font{
-
-        display: none;
-
-        @include tablet{
-          display: block;
-          max-width: 220px;
-          font-family: Montserrat;
-          font-size: 24px;
-          font-weight: 700;
-          line-height: 29.26px;
-          background: linear-gradient(270deg, #22417A, #3F78E0);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-
-        }
-      }
       .desk-font{
 
         font-family: Montserrat;
@@ -106,8 +89,14 @@
         color:#FFA229;
 
         @include tablet{
-
-          display: none;
+          text-align: left;
+          font-family: Montserrat;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.26px;
+          background: linear-gradient(270deg, #22417A, #3F78E0);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
 
         }
       }
