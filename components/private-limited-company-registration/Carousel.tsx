@@ -2,16 +2,13 @@ import React from "react";
 import Slider, { CustomArrowProps } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import left_arrow from "../../assets/icons/landing-page-two/carousel/left_arrow.svg";
-import right_arrow from "../../assets/icons/landing-page-two/carousel/right_arrow.svg";
-import left_plain_arrow from "../../assets/icons/landing-page-two/carousel/left_plain_arrow.svg";
-import right_plain_arrow from "../../assets/icons/landing-page-two/carousel/right_plain_arrow.svg";
+import left_arrow from "../../assets/icons/private-limited-company-registration/carousel/left_arrow.svg";
+import right_arrow from "../../assets/icons/private-limited-company-registration/carousel/right_arrow.svg";
 import ClientComponent from "./ClientComponent";
 import Image from "next/image";
 import clientimg1 from '../../assets/images/private-limited-company-registration/carouselimg1.png'
 import clientimg2 from '../../assets/images/private-limited-company-registration/carouselimg2.png'
 import clientimg3 from '../../assets/images/private-limited-company-registration/carouselimg3.png'
-import { init } from "next/dist/compiled/webpack/webpack";
 
 
 const testimonialsList = [

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import up_arrow from "../../assets/icons/up_arrow.svg";
+import up_arrow from "../../assets/icons/private-limited-company-registration/Faq/up_arrow.svg";
 
 
 

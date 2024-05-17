@@ -8,7 +8,7 @@ import google from '../../assets/icons/private-limited-company-registration/Hero
 import star from '../../assets/icons/private-limited-company-registration/Hero/star.svg'
 import free_book from '../../assets/images/private-limited-company-registration/Hero/free_book.svg'
 import free_gst from '../../assets/images/private-limited-company-registration/Hero/free_gst.svg'
-import ZohoformServicePvt from '../child_component/ZohoformServicePvt'
+import ZohoformServicePvt from '../../components/private-limited-company-registration/ZohoformServicePvt'
 
 const Hero = () => {
   return (

@@ -10,7 +10,7 @@ import instagram from '../../assets/images/private-limited-company-registration/
 import linkedin from '../../assets/images/private-limited-company-registration/linkedin.svg'
 import youtube from '../../assets/images/private-limited-company-registration/youtube.svg'
 import twitter from '../../assets/images/private-limited-company-registration/twitter.svg'
-import ZohoformServicePvt from '../child_component/ZohoformServicePvt'
+import ZohoformServicePvt from '../../components/private-limited-company-registration/ZohoformServicePvt'
 
 
 export const Footer = () => {
