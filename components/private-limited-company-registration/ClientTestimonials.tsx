@@ -1,7 +1,7 @@
 import React from 'react'
 import speaker from '../../assets/images/private-limited-company-registration/reviews-speaker.png'
-import clientImage from '../../assets/images/private-limited-company-registration/clientImage.png'
 import Image from 'next/image'
+import Carousel from '../../components/private-limited-company-registration/Carousel'
 
 function ClientTestimonials() {
   return (
@@ -15,10 +15,9 @@ function ClientTestimonials() {
                 <div className=''>
                     <Image src={speaker} alt='reviews' height={250}/>
                     <p>Lets <span>hear what our clients</span> want to say</p>
-                    <div />
                 </div>
                 <div className=''>
-                    <Image src={clientImage} alt='client'/>
+                    <Carousel clientTestmonailColor={'heading-color'}/>
                 </div>
             </div>
         </div>
