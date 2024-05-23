@@ -87,7 +87,7 @@ const Carousel: React.FC<ColorProps> = ({ clientTestmonailColor })=> {
     arrows: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
@@ -96,7 +96,7 @@ const Carousel: React.FC<ColorProps> = ({ clientTestmonailColor })=> {
         breakpoint: 1024,
         settings: {
           arrows:false,
-          slidesToShow: 2,
+          slidesToShow: 1.1,
           slidesToScroll: 1,
           infinite: true,
         }
@@ -105,7 +105,7 @@ const Carousel: React.FC<ColorProps> = ({ clientTestmonailColor })=> {
         breakpoint: 600,
         settings: {
           arrows:false,
-          slidesToShow: 1.1,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite:false,
         }
